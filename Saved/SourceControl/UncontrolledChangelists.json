@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel_BuiltData.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/BP_PlayerSpaceship.uasset"
+			]
+		}
+	]
+}
