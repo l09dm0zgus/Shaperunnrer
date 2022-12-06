@@ -30,8 +30,6 @@ void APlayerSpaceship::Tick(float DeltaTime)
 		PlayerController->GetInputMotionState(Tilt, RotationRate, Gravity, Acceleration);
 		FVector NewLocation(RotationRate.X, RotationRate.Y, 0.0f);
 		SetActorLocation(GetActorLocation() + (Speed * DeltaTime * NewLocation));
-		if (GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, *GetActorLocation().ToCompactString());
 	}
 
 }
