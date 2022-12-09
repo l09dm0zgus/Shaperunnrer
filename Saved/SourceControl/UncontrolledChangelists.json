@@ -8,7 +8,10 @@
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap",
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel_BuiltData.uasset",
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/BP_PlayerSpaceship.uasset",
-				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/BP_ShaperunnerGameModeBase.uasset"
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/BP_ShaperunnerGameModeBase.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_ShaperunnerGameModeBase.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlayerSpaceship.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlatformMover.uasset"
 			]
 		}
 	]
