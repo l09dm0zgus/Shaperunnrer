@@ -19,10 +19,14 @@ protected:
 	virtual void BeginPlay() override;
 private:
 	FVector GetRotationRateFromInputMotion();
-	void Move(const FVector &RotationRate,float DeltaTime);
+	void Move(const FVector &RotationRate);
 	APlayerController* PlayerController;
 	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent* Mesh;
 	UPROPERTY(EditAnywhere)
 	int32 Speed {100};
+	UPROPERTY(EditAnywhere)
+	class USphereComponent* SphereComponent;
+	UPROPERTY(EditAnywhere)
+	class UPlayerMovementComponent* PlayerMovement;
 };

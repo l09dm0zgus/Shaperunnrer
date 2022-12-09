@@ -3,11 +3,18 @@
 
 #include "PlayerSpaceship.h"
 #include "Components/StaticMeshComponent.h"
-
+#include "Components/SphereComponent.h"
+#include "PlayerMovementComponent.h"
 APlayerSpaceship::APlayerSpaceship()
 {
 	PrimaryActorTick.bCanEverTick = true;
+	SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("Collision"));
+	RootComponent = SphereComponent;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	Mesh->SetupAttachment(SphereComponent);
+	PlayerMovement = CreateDefaultSubobject<UPlayerMovementComponent>(TEXT("Movement"));
+	PlayerMovement->UpdatedComponent = RootComponent;
+
 }
 
 void APlayerSpaceship::BeginPlay()
@@ -20,18 +27,28 @@ void APlayerSpaceship::BeginPlay()
 	}
 }
 
+FVector APlayerSpaceship::GetRotationRateFromInputMotion()
+{
+	FVector Tilt, RotationRate, Gravity, Acceleration;
+	if (PlayerController)
+	{
+		PlayerController->GetInputMotionState(Tilt, RotationRate, Gravity, Acceleration);
+		return RotationRate;
+	}
+	return FVector();
+}
+
+void APlayerSpaceship::Move(const FVector& RotationRate)
+{
+	PlayerMovement->AddInputVector(GetActorForwardVector() * RotationRate.X);
+	PlayerMovement->AddInputVector(GetActorRightVector() * RotationRate.Y);
+}
+
 
 void APlayerSpaceship::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	FVector Tilt,RotationRate,Gravity,Acceleration;
-	if (PlayerController)
-	{
-		PlayerController->GetInputMotionState(Tilt, RotationRate, Gravity, Acceleration);
-		FVector NewLocation(RotationRate.X, RotationRate.Y, 0.0f);
-		SetActorLocation(GetActorLocation() + (Speed * DeltaTime * NewLocation));
-	}
-
+	Move(GetRotationRateFromInputMotion());
 }
 
 void APlayerSpaceship::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
