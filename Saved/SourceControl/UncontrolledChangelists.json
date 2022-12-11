@@ -11,7 +11,11 @@
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/BP_ShaperunnerGameModeBase.uasset",
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_ShaperunnerGameModeBase.uasset",
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlayerSpaceship.uasset",
-				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlatformMover.uasset"
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlatformMover.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_ObstacleSpawner.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/BP_Obstacle.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Obstacle.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Obstacle.uasset"
 			]
 		}
 	]

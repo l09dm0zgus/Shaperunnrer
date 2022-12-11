@@ -4,27 +4,25 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "PlatformMover.generated.h"
+#include "Obstacle.generated.h"
 
 UCLASS()
-class SHAPERUNNER_API APlatformMover : public AActor
+class SHAPERUNNER_API AObstacle : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
-	APlatformMover();
+	AObstacle();
 	virtual void Tick(float DeltaTime) override;
 protected:
-	virtual void BeginPlay() override;
-private:
 	void Move(float DeltaTime);
+	virtual void BeginPlay() override;
 	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent* Mesh;
 	UPROPERTY(EditAnywhere)
-	float StartFrom{ 0.0f };
+	class USphereComponent* SphereComponent;
 	UPROPERTY(EditAnywhere)
-	float End{ -740.0f };
+	float Speed{ 500.0f };
 	UPROPERTY(EditAnywhere)
-	float Speed{500.0f};
-
+	float DestroyLimit{ 0.0 };
 };
