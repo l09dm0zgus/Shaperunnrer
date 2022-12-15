@@ -29,4 +29,6 @@ private:
 	class USphereComponent* SphereComponent;
 	UPROPERTY(EditAnywhere)
 	class UPlayerMovementComponent* PlayerMovement;
+	UPROPERTY(EditAnywhere)
+	class UWeaponComponent* WeaponComponent;
 };

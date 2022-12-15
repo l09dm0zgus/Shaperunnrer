@@ -5,6 +5,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include "PlayerMovementComponent.h"
+#include "WeaponComponent.h"
 APlayerSpaceship::APlayerSpaceship()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -14,7 +15,8 @@ APlayerSpaceship::APlayerSpaceship()
 	Mesh->SetupAttachment(SphereComponent);
 	PlayerMovement = CreateDefaultSubobject<UPlayerMovementComponent>(TEXT("Movement"));
 	PlayerMovement->UpdatedComponent = RootComponent;
-
+	WeaponComponent = CreateDefaultSubobject<UWeaponComponent>(TEXT("Weapon"));
+	WeaponComponent->SetupAttachment(RootComponent);
 }
 
 void APlayerSpaceship::BeginPlay()
@@ -54,6 +56,6 @@ void APlayerSpaceship::Tick(float DeltaTime)
 void APlayerSpaceship::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
+	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, WeaponComponent, &UWeaponComponent::Fire);
 }
 
