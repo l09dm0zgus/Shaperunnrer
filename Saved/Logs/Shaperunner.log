@@ -4557,3 +4557,170 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2022.12.16-22.53.51:749][778]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
 [2022.12.16-22.53.56:770][270]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
 [2022.12.16-22.53.56:800][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.12.16-22.57.15:916][494]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-22.57.15:948][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.12.16-22.57.17:418][494]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-22.57.17:425][494]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-22.57.17:448][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.57.17:472][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.12.16-22.57.17:483][494]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-22.57.17:483][494]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevelC23C7BCC4887A6289DAC70ACD9E942DA.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-22.57.17:493][494]LogFileHelpers: Saving map 'MainLevel' took 0.045
+[2022.12.16-22.57.17:500][494]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.24 sec)
+[2022.12.16-22.57.17:517][495]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-22.57.17:517][495]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-22.57.57:721][419]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-22.57.57:752][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.12.16-22.57.59:185][419]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-22.57.59:193][419]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-22.57.59:219][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.57.59:243][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.12.16-22.57.59:255][419]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-22.57.59:255][419]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevelB4FD93594C3F145AF8A140B67155DA2D.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-22.57.59:265][419]LogFileHelpers: Saving map 'MainLevel' took 0.046
+[2022.12.16-22.57.59:271][419]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 1.31 sec)
+[2022.12.16-22.57.59:289][420]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-22.57.59:289][420]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-22.58.25:019][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-22.58.25:039][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.58.25:064][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.12.16-22.58.25:075][618]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-22.58.25:075][618]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel5421541F41310FFB8CF9D2AC75C6203B.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-22.58.25:085][618]LogFileHelpers: Saving map 'MainLevel' took 0.046
+[2022.12.16-22.58.25:092][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 1.39 sec)
+[2022.12.16-22.58.25:098][618]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-22.58.25:098][618]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-22.58.33:339][576]LogViewport: Scene viewport resized to 1014x376, mode Windowed.
+[2022.12.16-22.58.33:861][630]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-22.58.33:891][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.12.16-22.58.34:988][744]LogViewport: Scene viewport resized to 2038x585, mode Windowed.
+[2022.12.16-22.58.39:529][257]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-22.58.39:570][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.12.16-22.59.08:696][400]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-22.59.08:726][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.12.16-22.59.09:965][400]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-22.59.09:973][400]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-22.59.09:998][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.59.10:024][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.12.16-22.59.10:035][400]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-22.59.10:036][400]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevelA78F93144281D6B43906CE95DC975DDC.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-22.59.10:045][400]LogFileHelpers: Saving map 'MainLevel' took 0.048
+[2022.12.16-22.59.10:052][400]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.47 sec)
+[2022.12.16-22.59.10:071][401]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-22.59.10:071][401]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-22.59.41:064][531]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-22.59.41:094][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.12.16-22.59.42:320][531]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-22.59.42:328][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-22.59.42:351][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-22.59.42:376][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.12.16-22.59.42:387][531]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-22.59.42:387][531]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel45377C3948401B618C93139EABAB5AF6.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-22.59.42:397][531]LogFileHelpers: Saving map 'MainLevel' took 0.046
+[2022.12.16-22.59.42:404][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 1.54 sec)
+[2022.12.16-22.59.42:423][532]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-22.59.42:423][532]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-23.00.16:256][ 25]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-23.00.16:287][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.12.16-23.00.17:813][ 25]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-23.00.17:821][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-23.00.17:843][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-23.00.17:868][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.16-23.00.17:879][ 25]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-23.00.17:879][ 25]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel364B4DCE4EB2BDE093894D84F1DA2466.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-23.00.17:889][ 25]LogFileHelpers: Saving map 'MainLevel' took 0.045
+[2022.12.16-23.00.17:895][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.62 sec)
+[2022.12.16-23.00.17:912][ 26]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-23.00.17:912][ 26]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-23.00.47:373][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-23.00.47:396][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-23.00.47:420][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.12.16-23.00.47:430][333]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-23.00.47:431][333]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel8F4C06D14C19B2C0FA6BDF8AD0DFC4DA.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-23.00.47:440][333]LogFileHelpers: Saving map 'MainLevel' took 0.044
+[2022.12.16-23.00.47:447][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.69 sec)
+[2022.12.16-23.00.47:453][333]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-23.00.47:453][333]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-23.00.52:046][848]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-23.00.52:077][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.12.16-23.01.27:667][161]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-23.01.27:694][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-23.01.27:719][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.12.16-23.01.27:730][161]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-23.01.27:730][161]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel35A90FFC46057958FA8F3F999D40A4F2.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-23.01.27:739][161]LogFileHelpers: Saving map 'MainLevel' took 0.046
+[2022.12.16-23.01.27:747][161]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.77 sec)
+[2022.12.16-23.01.27:752][161]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-23.01.27:752][161]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-23.01.29:110][311]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-23.01.29:140][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.12.16-23.02.02:768][324]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-23.02.02:799][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.12.16-23.02.03:914][324]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-23.02.03:922][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-23.02.03:942][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-23.02.03:966][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.12.16-23.02.03:977][324]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-23.02.03:977][324]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevelC6B7310E4C6145856C9825985E44D159.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-23.02.03:987][324]LogFileHelpers: Saving map 'MainLevel' took 0.045
+[2022.12.16-23.02.03:993][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.84 sec)
+[2022.12.16-23.02.04:010][325]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-23.02.04:010][325]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-23.02.40:268][594]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-23.02.40:298][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.12.16-23.02.41:550][594]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-23.02.41:557][594]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-23.02.41:578][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-23.02.41:602][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.12.16-23.02.41:613][594]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-23.02.41:614][594]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevelEBC9E30E4D24691C457052B19B4C594D.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-23.02.41:626][594]LogFileHelpers: Saving map 'MainLevel' took 0.048
+[2022.12.16-23.02.41:632][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.92 sec)
+[2022.12.16-23.02.41:649][595]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-23.02.41:649][595]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-23.03.18:453][624]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-23.03.18:471][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-23.03.18:495][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.12.16-23.03.18:506][624]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-23.03.18:507][624]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel81CE80F84943EED3437F6CB33A7BAAB9.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-23.03.18:516][624]LogFileHelpers: Saving map 'MainLevel' took 0.045
+[2022.12.16-23.03.18:522][624]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 1.99 sec)
+[2022.12.16-23.03.18:528][624]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-23.03.18:528][624]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-23.03.19:561][727]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-23.03.19:590][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.16-23.03.53:590][ 27]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-23.03.53:613][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-23.03.53:637][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.12.16-23.03.53:648][ 27]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-23.03.53:648][ 27]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel0FFABAFE4BEA27166619239D02F76D81.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-23.03.53:658][ 27]LogFileHelpers: Saving map 'MainLevel' took 0.046
+[2022.12.16-23.03.53:665][ 27]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 2.06 sec)
+[2022.12.16-23.03.53:671][ 27]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-23.03.53:671][ 27]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-23.03.54:854][162]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-23.03.54:883][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.12.16-23.05.02:373][510]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-23.05.02:403][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.12.16-23.05.03:661][510]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-23.05.03:669][510]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-23.05.03:685][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-23.05.03:710][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.12.16-23.05.03:721][510]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-23.05.03:722][510]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel963A9BFB44B5354EF41E0CB7BE5DDC5C.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-23.05.03:732][510]LogFileHelpers: Saving map 'MainLevel' took 0.047
+[2022.12.16-23.05.03:738][510]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 2.13 sec)
+[2022.12.16-23.05.03:754][511]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-23.05.03:754][511]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.16-23.05.51:848][929]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.16-23.05.51:878][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2022.12.16-23.05.53:490][929]LogSlate: Window 'Save Content' being destroyed
+[2022.12.16-23.05.53:498][929]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.16-23.05.53:524][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.16-23.05.53:549][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.12.16-23.05.53:559][929]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.16-23.05.53:560][929]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel13A9F994449A287775D6D490A457A56A.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.16-23.05.53:570][929]LogFileHelpers: Saving map 'MainLevel' took 0.047
+[2022.12.16-23.05.53:577][929]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 2.21 sec)
+[2022.12.16-23.05.53:594][930]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.16-23.05.53:594][930]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
