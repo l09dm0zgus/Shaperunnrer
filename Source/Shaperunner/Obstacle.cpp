@@ -4,7 +4,7 @@
 #include "Obstacle.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
-
+#include "HitComponent.h"
 AObstacle::AObstacle()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,6 +12,8 @@ AObstacle::AObstacle()
 	RootComponent = SphereComponent;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(SphereComponent);
+	HitComponent = CreateDefaultSubobject<UHitComponent>(TEXT("Hit"));
+	HitComponent->SetShapeComponent(SphereComponent);
 }
 
 void AObstacle::BeginPlay()
@@ -29,6 +31,7 @@ void AObstacle::AddToSpeed(float SpeedAdd)
 {
 	this->Speed += SpeedAdd;
 }
+
 void AObstacle::Move(float DeltaTime)
 {
 	FVector Location = GetActorLocation();

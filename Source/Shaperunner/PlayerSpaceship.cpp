@@ -59,3 +59,11 @@ void APlayerSpaceship::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, WeaponComponent, &UWeaponComponent::Fire);
 }
 
+void APlayerSpaceship::TakeDamage()
+{
+	Lives--;
+	if (Lives <= 0)
+	{
+		Destroy();
+	}
+}

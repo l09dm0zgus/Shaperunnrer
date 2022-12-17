@@ -23,4 +23,8 @@ private:
 	class UStaticMeshComponent* Mesh;
 	UPROPERTY(EditAnywhere)
 	class UProjectileMovementComponent* ProjectileMovementComponent;
+	UPROPERTY(EditAnywhere)
+	class UHitComponent* HitComponent;
+	UPROPERTY(EditAnywhere)
+	class UCapsuleComponent* CapsuleComponent;
 };

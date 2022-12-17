@@ -26,4 +26,6 @@ protected:
 	float Speed{ 500.0f };
 	UPROPERTY(EditAnywhere)
 	float DestroyLimit{ 0.0 };
+	UPROPERTY(EditAnywhere)
+	class UHitComponent* HitComponent;
 };

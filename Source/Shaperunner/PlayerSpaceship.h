@@ -15,6 +15,7 @@ public:
 	APlayerSpaceship();
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	void TakeDamage();
 protected:
 	virtual void BeginPlay() override;
 private:
@@ -31,4 +32,6 @@ private:
 	class UPlayerMovementComponent* PlayerMovement;
 	UPROPERTY(EditAnywhere)
 	class UWeaponComponent* WeaponComponent;
+	UPROPERTY(EditAnywhere)
+	int32 Lives {3};
 };
