@@ -14,6 +14,7 @@ class SHAPERUNNER_API APlatformMover : public AActor
 public:	
 	APlatformMover();
 	virtual void Tick(float DeltaTime) override;
+	void AddToSpeed(float SpeedAdd);
 protected:
 	virtual void BeginPlay() override;
 private:
@@ -25,6 +26,6 @@ private:
 	UPROPERTY(EditAnywhere)
 	float End{ -740.0f };
 	UPROPERTY(EditAnywhere)
-	float Speed{500.0f};
+	float Speed{50.0f};
 
 };

@@ -22,6 +22,11 @@ void APlatformMover::Tick(float DeltaTime)
 	Move(DeltaTime);
 }
 
+void APlatformMover::AddToSpeed(float SpeedAdd)
+{
+	this->Speed += SpeedAdd;
+}
+
 void APlatformMover::Move(float DeltaTime)
 {
 	FVector Location = GetActorLocation();

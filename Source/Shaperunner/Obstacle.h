@@ -14,6 +14,7 @@ class SHAPERUNNER_API AObstacle : public AActor
 public:	
 	AObstacle();
 	virtual void Tick(float DeltaTime) override;
+	void AddToSpeed(float SpeedAdd);
 protected:
 	void Move(float DeltaTime);
 	virtual void BeginPlay() override;

@@ -25,6 +25,10 @@ void AObstacle::Tick(float DeltaTime)
 	Move(DeltaTime);
 
 }
+void AObstacle::AddToSpeed(float SpeedAdd)
+{
+	this->Speed += SpeedAdd;
+}
 void AObstacle::Move(float DeltaTime)
 {
 	FVector Location = GetActorLocation();
