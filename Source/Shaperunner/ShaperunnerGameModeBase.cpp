@@ -5,32 +5,101 @@
 #include "Obstacle.h"
 #include "PlatformMover.h"
 #include "Kismet/GameplayStatics.h"
+#include "PlayerSpaceshipController.h"
+#include "ObstacleSpawner.h"
+
 AShaperunnerGameModeBase::AShaperunnerGameModeBase()
 {
 	PrimaryActorTick.bCanEverTick = false;
+}
 
+void AShaperunnerGameModeBase::RestartPlayer(AController* NewPlayer)
+{
+	Super::RestartPlayer(NewPlayer);
+}
+
+
+
+void AShaperunnerGameModeBase::StartGame()
+{
+	if (PlayerController != nullptr)
+	{
+		PlayerController->ShowPlayerHUD();
+		RestartPlayer(PlayerController);
+	}
+	if (PlatformMover != nullptr)
+	{
+		PlatformMover->RestoreStartSpeed();
+	}
+	if (ObstacleSpawner != nullptr)
+	{
+		ObstacleSpawner->StartSpawning();
+	}
+	GetWorld()->GetTimerManager().SetTimer(PlatformMoverTimerHandle, this, &AShaperunnerGameModeBase::ChangePlatformMoverSpeed, ChangingPlatformMoverSpeedRate, true, 1.0f);
+	GetWorld()->GetTimerManager().SetTimer(ObstaclesTimerHandle, this, &AShaperunnerGameModeBase::ChangeObstaclesSpeed, ChangingObstaclesSpeedRate, true, 1.0f);
+	
+}
+
+void AShaperunnerGameModeBase::GameOver()
+{
+	if (PlayerController != nullptr)
+	{
+		PlayerController->ShowGameOverScreen();
+	}
+	GetWorldTimerManager().ClearTimer(PlatformMoverTimerHandle);
+	GetWorldTimerManager().ClearTimer(ObstaclesTimerHandle);
+	if (PlatformMover != nullptr)
+	{
+		PlatformMover->Stop();
+	}
+	if (ObstacleSpawner != nullptr)
+	{
+		ObstacleSpawner->StopSpawning();
+	}
+}
+
+
+APlatformMover* AShaperunnerGameModeBase::GetPlatformMover()
+{
+	PlatformMover = Cast<APlatformMover>(UGameplayStatics::GetActorOfClass(GetWorld(), APlatformMover::StaticClass()));
+	return PlatformMover;
 }
 
 
 void AShaperunnerGameModeBase::BeginPlay()
 {
 	Super::BeginPlay();
-	GetWorld()->GetTimerManager().SetTimer(PlatformMoverTimerHandle, this, &AShaperunnerGameModeBase::ChangePlatformMoverSpeed, ChangingPlatformMoverSpeedRate, true, 1.0f);
-	GetWorld()->GetTimerManager().SetTimer(ObstaclesTimerHandle, this, &AShaperunnerGameModeBase::ChangeObstaclesSpeed, ChangingObstaclesSpeedRate, true, 1.0f);
+	PlatformMover = GetPlatformMover();
+	PlayerController = GetPlayerController();
+	ObstacleSpawner = GetObstacleSpawner();
+	if (PlayerController != nullptr)
+	{
+		PlayerController->ShowStartGameScreen();
+	}
+}
 
+
+
+
+APlayerSpaceshipController* AShaperunnerGameModeBase::GetPlayerController()
+{
+	return Cast<APlayerSpaceshipController>(UGameplayStatics::GetPlayerController(GetWorld(), 0));
+}
+
+AObstacleSpawner* AShaperunnerGameModeBase::GetObstacleSpawner()
+{
+	return Cast<AObstacleSpawner>(UGameplayStatics::GetActorOfClass(GetWorld(),AObstacleSpawner::StaticClass()));
 }
 
 void AShaperunnerGameModeBase::ChangeObstaclesSpeed()
 {
 	TArray<AActor*> Obstacles;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(),AObstacle::StaticClass(),Obstacles);
-	UE_LOG(LogTemp, Warning, TEXT("Change Obstacles Speed called"));
 	for (auto Actor : Obstacles)
 	{
 		AObstacle* Obstacle = Cast<AObstacle>(Actor);
 		if (Obstacle != nullptr)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Changing obstacle speed"));
 			Obstacle->AddToSpeed(ObstacleSpeedAdd);
 		}
 	}
@@ -39,16 +108,8 @@ void AShaperunnerGameModeBase::ChangeObstaclesSpeed()
 
 void AShaperunnerGameModeBase::ChangePlatformMoverSpeed()
 {
-	TArray<AActor*> PlatformMovers;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), APlatformMover::StaticClass(), PlatformMovers);
-	UE_LOG(LogTemp, Warning, TEXT("Change PlatformMover Speed called"));
-	for (auto Actor : PlatformMovers)
+	if (PlatformMover != nullptr)
 	{
-		APlatformMover* PlatformMover = Cast<APlatformMover>(Actor);
-		if (PlatformMover != nullptr)
-		{
-			UE_LOG(LogTemp, Warning, TEXT("Changing PlatformMover speed"));
-			PlatformMover->AddToSpeed(PlatformMoverSpeedAdd);
-		}
+		PlatformMover->AddToSpeed(PlatformMoverSpeedAdd);
 	}
 }

@@ -14,8 +14,10 @@ class SHAPERUNNER_API UHitComponent : public UActorComponent
 
 public:	
 	UHitComponent();
+
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
+
 	void SetShapeComponent(class UShapeComponent* shapeComponent);
 protected:
 	virtual void BeginPlay() override;

@@ -18,14 +18,19 @@ public:
 protected:
 	void Move(float DeltaTime);
 	virtual void BeginPlay() override;
+
 	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent* Mesh;
+
 	UPROPERTY(EditAnywhere)
 	class USphereComponent* SphereComponent;
+
 	UPROPERTY(EditAnywhere)
 	float Speed{ 500.0f };
+
 	UPROPERTY(EditAnywhere)
 	float DestroyLimit{ 0.0 };
+
 	UPROPERTY(EditAnywhere)
 	class UHitComponent* HitComponent;
 };

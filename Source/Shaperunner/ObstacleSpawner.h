@@ -14,17 +14,24 @@ class SHAPERUNNER_API AObstacleSpawner : public AActor
 public:	
 	AObstacleSpawner();
 	virtual void Tick(float DeltaTime) override;
+	void StartSpawning();
+	void StopSpawning();
 protected:
 	virtual void BeginPlay() override;
 private:
 	void Spawn();
+
 	UPROPERTY(EditAnywhere)
 	float SpawnRate{ 3.0 };
+
 	UPROPERTY(EditAnywhere)
 	class UBoxComponent* BoxComponent;
+
 	UPROPERTY(EditAnywhere)
 	TArray<TSubclassOf<class AObstacle>> Obstacles;
+
 	UPROPERTY(EditAnywhere)
 	float PlayerSpaceshipZLocation{ 32.0 };
+
 	FTimerHandle TimerHandle;
 };

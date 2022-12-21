@@ -18,8 +18,10 @@ public:
 private:
 	void RandomRotate(float DeltaTime);
 	virtual void BeginPlay() override;
+
 	UPROPERTY(EditAnywhere)
 	float MinimalAngle{ 0.0f };
+
 	UPROPERTY(EditAnywhere)
 	float MaximalAngle{ 60.0f };
 };

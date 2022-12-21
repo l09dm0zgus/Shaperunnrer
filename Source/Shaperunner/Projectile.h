@@ -19,12 +19,16 @@ protected:
 	virtual void BeginPlay() override;
 
 private:		
+
 	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent* Mesh;
+
 	UPROPERTY(EditAnywhere)
 	class UProjectileMovementComponent* ProjectileMovementComponent;
+
 	UPROPERTY(EditAnywhere)
 	class UHitComponent* HitComponent;
+
 	UPROPERTY(EditAnywhere)
 	class UCapsuleComponent* CapsuleComponent;
 };

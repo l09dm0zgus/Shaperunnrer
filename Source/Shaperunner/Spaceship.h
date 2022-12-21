@@ -16,10 +16,13 @@ class SHAPERUNNER_API ASpaceship : public AObstacle
 private:
 	virtual void BeginPlay() override;
 	FTimerHandle TimerHandle;
+
 	UPROPERTY(EditAnywhere)
 	float ShootingRate{ 1.5f };
+
 	UPROPERTY(EditAnywhere)
 	class UWeaponComponent* WeaponComponent;
+
 public:
 	ASpaceship();
 	virtual void Tick(float DeltaTime) override;

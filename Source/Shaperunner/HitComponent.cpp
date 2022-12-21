@@ -18,12 +18,14 @@ void UHitComponent::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
 		{
 			APlayerSpaceship* Player = Cast<APlayerSpaceship>(OtherActor);
 			Player->TakeDamage();
+			GetOwner()->Destroy();
 		}
 		else
 		{
 			OtherActor->Destroy();
+			GetOwner()->Destroy();
 		}
-		GetOwner()->Destroy();
+		
 	}
 }
 

@@ -15,16 +15,23 @@ public:
 	APlatformMover();
 	virtual void Tick(float DeltaTime) override;
 	void AddToSpeed(float SpeedAdd);
+	void RestoreStartSpeed();
+	void Stop();
 protected:
 	virtual void BeginPlay() override;
 private:
 	void Move(float DeltaTime);
+	float StartSpeed;
+
 	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent* Mesh;
+
 	UPROPERTY(EditAnywhere)
 	float StartFrom{ 0.0f };
+
 	UPROPERTY(EditAnywhere)
 	float End{ -740.0f };
+
 	UPROPERTY(EditAnywhere)
 	float Speed{50.0f};
 

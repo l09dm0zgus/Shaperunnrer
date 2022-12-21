@@ -6,23 +6,33 @@
 #include "Components/SphereComponent.h"
 #include "PlayerMovementComponent.h"
 #include "WeaponComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "ShaperunnerGameModeBase.h"
+#include "PlayerSpaceshipController.h"
+
 APlayerSpaceship::APlayerSpaceship()
 {
 	PrimaryActorTick.bCanEverTick = true;
+
 	SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("Collision"));
 	RootComponent = SphereComponent;
+
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(SphereComponent);
+
 	PlayerMovement = CreateDefaultSubobject<UPlayerMovementComponent>(TEXT("Movement"));
 	PlayerMovement->UpdatedComponent = RootComponent;
+
 	WeaponComponent = CreateDefaultSubobject<UWeaponComponent>(TEXT("Weapon"));
 	WeaponComponent->SetupAttachment(RootComponent);
+
+	PlayerController = CreateDefaultSubobject<APlayerSpaceshipController>(TEXT("Controller"));
+	this->Controller = PlayerController;
 }
 
 void APlayerSpaceship::BeginPlay()
 {
 	Super::BeginPlay();
-	PlayerController = Cast<APlayerController>(GetController());
 	if (!PlayerController)
 	{
 		return;
@@ -51,6 +61,10 @@ void APlayerSpaceship::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	Move(GetRotationRateFromInputMotion());
+	if (bIsPlayStarted)
+	{
+		Score += 10.00f;
+	}
 }
 
 void APlayerSpaceship::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -64,6 +78,21 @@ void APlayerSpaceship::TakeDamage()
 	Lives--;
 	if (Lives <= 0)
 	{
+		AShaperunnerGameModeBase *GameMode = Cast<AShaperunnerGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
+		if (GameMode != nullptr)
+		{
+			GameMode->GameOver();
+		}
 		Destroy();
 	}
+}
+
+int32 APlayerSpaceship::GetLives()
+{
+	return Lives;
+}
+
+float APlayerSpaceship::GetScore()
+{
+	return Score;
 }

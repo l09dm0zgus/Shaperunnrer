@@ -13,7 +13,7 @@ APlatformMover::APlatformMover()
 void APlatformMover::BeginPlay()
 {
 	Super::BeginPlay();
-	StartFrom = GetActorLocation().X;
+	StartSpeed = Speed;
 }
 
 void APlatformMover::Tick(float DeltaTime)
@@ -25,6 +25,16 @@ void APlatformMover::Tick(float DeltaTime)
 void APlatformMover::AddToSpeed(float SpeedAdd)
 {
 	this->Speed += SpeedAdd;
+}
+
+void APlatformMover::RestoreStartSpeed()
+{
+	Speed = StartSpeed;
+}
+
+void APlatformMover::Stop()
+{
+	Speed = 0.0f;
 }
 
 void APlatformMover::Move(float DeltaTime)

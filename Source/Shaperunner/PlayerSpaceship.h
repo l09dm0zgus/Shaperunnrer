@@ -16,22 +16,42 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	void TakeDamage();
+
+	UPROPERTY(BlueprintReadWrite)
+	bool bIsPlayStarted{ false };
+
+	UFUNCTION(BlueprintPure)
+	int32 GetLives();
+
+	UFUNCTION(BlueprintPure)
+	float GetScore();
+
 protected:
 	virtual void BeginPlay() override;
 private:
 	FVector GetRotationRateFromInputMotion();
 	void Move(const FVector &RotationRate);
-	APlayerController* PlayerController;
+
 	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent* Mesh;
+
 	UPROPERTY(EditAnywhere)
 	int32 Speed {100};
+
 	UPROPERTY(EditAnywhere)
 	class USphereComponent* SphereComponent;
+
 	UPROPERTY(EditAnywhere)
 	class UPlayerMovementComponent* PlayerMovement;
+
 	UPROPERTY(EditAnywhere)
 	class UWeaponComponent* WeaponComponent;
+
 	UPROPERTY(EditAnywhere)
 	int32 Lives {3};
+
+	UPROPERTY(EditAnywhere)
+	class APlayerSpaceshipController* PlayerController;
+
+	float Score{ 0.0f };
 };

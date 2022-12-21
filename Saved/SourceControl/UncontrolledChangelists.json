@@ -17,6 +17,12 @@
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Meteor.uasset",
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship.uasset",
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Projectile.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_SpaceshipProjectile.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlayerSpaceshipController.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/PlayerHUD.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/LoseScreen.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/GameOverScreen.uasset",
+				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/StartGameScreen.uasset",
 				"C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/BP_Obstacle.uasset"
 			]
 		}

@@ -16,6 +16,7 @@ class SHAPERUNNER_API UPlayerMovementComponent : public UPawnMovementComponent
 public:
 	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 private:
+
 	UPROPERTY(EditAnywhere)
 	float Speed = 150.0f;
 };

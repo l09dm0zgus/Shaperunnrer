@@ -15,7 +15,6 @@ AObstacleSpawner::AObstacleSpawner()
 void AObstacleSpawner::BeginPlay()
 {
 	Super::BeginPlay();
-	GetWorldTimerManager().SetTimer(TimerHandle, this, &AObstacleSpawner::Spawn, SpawnRate, true, 2.0f);
 }
 
 void AObstacleSpawner::Spawn()
@@ -33,5 +32,15 @@ void AObstacleSpawner::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
+}
+
+void AObstacleSpawner::StartSpawning()
+{
+	GetWorldTimerManager().SetTimer(TimerHandle, this, &AObstacleSpawner::Spawn, SpawnRate, true, 2.0f);
+}
+
+void AObstacleSpawner::StopSpawning()
+{
+	GetWorldTimerManager().ClearTimer(TimerHandle);
 }
 
