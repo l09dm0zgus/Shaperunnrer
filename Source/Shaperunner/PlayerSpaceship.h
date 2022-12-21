@@ -15,7 +15,7 @@ public:
 	APlayerSpaceship();
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	void TakeDamage();
+	void Damage();
 
 	UPROPERTY(BlueprintReadWrite)
 	bool bIsPlayStarted{ false };
@@ -50,8 +50,6 @@ private:
 	UPROPERTY(EditAnywhere)
 	int32 Lives {3};
 
-	UPROPERTY(EditAnywhere)
-	class APlayerSpaceshipController* PlayerController;
 
 	float Score{ 0.0f };
 };

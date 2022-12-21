@@ -26,22 +26,17 @@ APlayerSpaceship::APlayerSpaceship()
 	WeaponComponent = CreateDefaultSubobject<UWeaponComponent>(TEXT("Weapon"));
 	WeaponComponent->SetupAttachment(RootComponent);
 
-	PlayerController = CreateDefaultSubobject<APlayerSpaceshipController>(TEXT("Controller"));
-	this->Controller = PlayerController;
 }
-
 void APlayerSpaceship::BeginPlay()
 {
 	Super::BeginPlay();
-	if (!PlayerController)
-	{
-		return;
-	}
+
 }
 
 FVector APlayerSpaceship::GetRotationRateFromInputMotion()
 {
 	FVector Tilt, RotationRate, Gravity, Acceleration;
+	APlayerController* PlayerController = Cast<APlayerController>(GetController());
 	if (PlayerController)
 	{
 		PlayerController->GetInputMotionState(Tilt, RotationRate, Gravity, Acceleration);
@@ -73,7 +68,7 @@ void APlayerSpaceship::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, WeaponComponent, &UWeaponComponent::Fire);
 }
 
-void APlayerSpaceship::TakeDamage()
+void APlayerSpaceship::Damage()
 {
 	Lives--;
 	if (Lives <= 0)

@@ -17,7 +17,7 @@ void UHitComponent::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
 		if (OtherActor->Tags.Num() != 0 && OtherActor->Tags[0] == FName(TEXT("Player")))
 		{
 			APlayerSpaceship* Player = Cast<APlayerSpaceship>(OtherActor);
-			Player->TakeDamage();
+			Player->Damage();
 			GetOwner()->Destroy();
 		}
 		else

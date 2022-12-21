@@ -22,7 +22,7 @@ public:
 
 	void GameOver();
 private:
-
+	TArray<AActor*> Obstacles;
 
 	class APlatformMover* PlatformMover;
 	class APlatformMover* GetPlatformMover();

@@ -56,6 +56,14 @@ void AShaperunnerGameModeBase::GameOver()
 	{
 		ObstacleSpawner->StopSpawning();
 	}
+
+	for (auto Actor : Obstacles)
+	{
+		if (Actor != nullptr)
+		{
+			Actor->Destroy();
+		}
+	}
 }
 
 
@@ -93,7 +101,6 @@ AObstacleSpawner* AShaperunnerGameModeBase::GetObstacleSpawner()
 
 void AShaperunnerGameModeBase::ChangeObstaclesSpeed()
 {
-	TArray<AActor*> Obstacles;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(),AObstacle::StaticClass(),Obstacles);
 	for (auto Actor : Obstacles)
 	{
