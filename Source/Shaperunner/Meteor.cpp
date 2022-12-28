@@ -2,7 +2,9 @@
 
 
 #include "Meteor.h"
- #include "Kismet/KismetMathLibrary.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "HitComponent.h"
+
 
 void AMeteor::Tick(float DeltaTime)
 {

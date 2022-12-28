@@ -17,9 +17,14 @@ public:
 
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
-
 	void SetShapeComponent(class UShapeComponent* shapeComponent);
 protected:
 	virtual void BeginPlay() override;
 	class UShapeComponent* ShapeComponent;
+private:
+	void DamageOtherActor(AActor *OtherActor);
+	void DamageOwner(AActor *Owner);
+	void DamagePlayer(AActor *OtherActor);
+	void DamageObstacle(AActor *OtherActor);
 };
+

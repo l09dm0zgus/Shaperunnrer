@@ -15,6 +15,7 @@ public:
 	AObstacle();
 	virtual void Tick(float DeltaTime) override;
 	void AddToSpeed(float SpeedAdd);
+	void Damage();
 protected:
 	void Move(float DeltaTime);
 	virtual void BeginPlay() override;
@@ -29,8 +30,11 @@ protected:
 	float Speed{ 500.0f };
 
 	UPROPERTY(EditAnywhere)
-	float DestroyLimit{ 0.0 };
+	float DestroyLimit{ -1500.0 };
 
+	UPROPERTY(EditAnywhere)
+	class UNiagaraSystem* ExplosionFX;
+	
 	UPROPERTY(EditAnywhere)
 	class UHitComponent* HitComponent;
 };

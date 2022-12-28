@@ -21,6 +21,12 @@ private:
 	float ShootingRate{ 1.5f };
 
 	UPROPERTY(EditAnywhere)
+	class UNiagaraSystem* TailFX;
+	
+	UPROPERTY(EditAnywhere)
+    class USceneComponent* TailFXPosition;
+	
+	UPROPERTY(EditAnywhere)
 	class UWeaponComponent* WeaponComponent;
 
 public:

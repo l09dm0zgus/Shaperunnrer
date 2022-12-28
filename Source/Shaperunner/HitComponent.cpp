@@ -4,6 +4,7 @@
 #include "HitComponent.h"
 #include "PlayerSpaceship.h"
 #include "Components/ShapeComponent.h"
+#include  "Obstacle.h"
 
 UHitComponent::UHitComponent()
 {
@@ -14,20 +15,12 @@ void UHitComponent::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
 {
 	if (OtherActor  != nullptr)
 	{
-		if (OtherActor->Tags.Num() != 0 && OtherActor->Tags[0] == FName(TEXT("Player")))
-		{
-			APlayerSpaceship* Player = Cast<APlayerSpaceship>(OtherActor);
-			Player->Damage();
-			GetOwner()->Destroy();
-		}
-		else
-		{
-			OtherActor->Destroy();
-			GetOwner()->Destroy();
-		}
-		
+		AActor *Owner = GetOwner();
+		DamageOtherActor(OtherActor);
+		DamageOwner(Owner);
 	}
 }
+
 
 void UHitComponent::SetShapeComponent(UShapeComponent* shapeComponent)
 {
@@ -40,4 +33,59 @@ void UHitComponent::BeginPlay()
 	ShapeComponent->OnComponentHit.AddDynamic(this, &UHitComponent::OnHit);
 }
 
+void UHitComponent::DamagePlayer(AActor *OtherActor)
+{
+	APlayerSpaceship* Player = Cast<APlayerSpaceship>(OtherActor);
+	if(Player != nullptr)
+	{
+		Player->Damage();
+	}
+}
+
+void UHitComponent::DamageObstacle(AActor* OtherActor)
+{
+	AObstacle *Obstacle = Cast<AObstacle>(OtherActor);
+	if(Obstacle != nullptr)
+	{
+		Obstacle->Damage();	
+	}
+}
+
+void UHitComponent::DamageOtherActor(AActor* OtherActor)
+{
+	FName OtherActorTag;
+	if(OtherActor->Tags.Num() != 0)
+	{
+		OtherActorTag = OtherActor->Tags[0];
+	}
+	if (OtherActorTag == FName(TEXT("Player")))
+	{
+		DamagePlayer(OtherActor);
+	}
+	else
+	{
+		DamageObstacle(OtherActor);
+	}
+}
+
+void UHitComponent::DamageOwner(AActor* Owner)
+{
+	FName OwnerTag;
+	if(Owner->Tags.Num() != 0)
+	{
+		OwnerTag = Owner->Tags[0];
+	}
+	if (OwnerTag == FName(TEXT("Player")))
+	{
+		DamagePlayer(Owner);
+	}
+	else if (OwnerTag == FName(TEXT("Obstacle")))
+	{
+		DamageOtherActor(Owner);
+	}
+	else
+	{
+		Owner->Destroy();
+	}
+}
 

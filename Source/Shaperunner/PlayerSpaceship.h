@@ -39,6 +39,12 @@ private:
 	int32 Speed {100};
 
 	UPROPERTY(EditAnywhere)
+	class UNiagaraSystem* ExplosionFX;
+
+	UPROPERTY(EditAnywhere)
+	class UNiagaraSystem* TailFX;
+	
+	UPROPERTY(EditAnywhere)
 	class USphereComponent* SphereComponent;
 
 	UPROPERTY(EditAnywhere)
@@ -50,6 +56,11 @@ private:
 	UPROPERTY(EditAnywhere)
 	int32 Lives {3};
 
-
+	UPROPERTY(EditAnywhere)
+	class UHitComponent *HitComponent;
+	
+	UPROPERTY(EditAnywhere)
+	class USceneComponent *TailLocation;
+	
 	float Score{ 0.0f };
 };

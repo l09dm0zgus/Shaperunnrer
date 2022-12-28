@@ -5,9 +5,13 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include "HitComponent.h"
+#include "NiagaraFunctionLibrary.h"
+#include "NiagaraComponent.h"
+
 AObstacle::AObstacle()
 {
 	PrimaryActorTick.bCanEverTick = true;
+	UE_LOG(LogTemp,Warning,TEXT("Object Created"))
 	SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("Collision"));
 	RootComponent = SphereComponent;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
@@ -30,6 +34,15 @@ void AObstacle::Tick(float DeltaTime)
 void AObstacle::AddToSpeed(float SpeedAdd)
 {
 	this->Speed += SpeedAdd;
+}
+
+void AObstacle::Damage()
+{
+	if(ExplosionFX != nullptr)
+	{
+		UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(),ExplosionFX,GetActorLocation(),FRotator(0.0f),FVector(0.05f));
+		Destroy();
+	}
 }
 
 void AObstacle::Move(float DeltaTime)

@@ -2,13 +2,15 @@
 
 
 #include "PlayerSpaceship.h"
+
+#include "NiagaraFunctionLibrary.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include "PlayerMovementComponent.h"
 #include "WeaponComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "ShaperunnerGameModeBase.h"
-#include "PlayerSpaceshipController.h"
+#include  "HitComponent.h"
 
 APlayerSpaceship::APlayerSpaceship()
 {
@@ -26,11 +28,16 @@ APlayerSpaceship::APlayerSpaceship()
 	WeaponComponent = CreateDefaultSubobject<UWeaponComponent>(TEXT("Weapon"));
 	WeaponComponent->SetupAttachment(RootComponent);
 
+	TailLocation = CreateDefaultSubobject<USceneComponent>(TEXT("Tail Location"));
+	TailLocation->SetupAttachment(RootComponent);
+
+	HitComponent = CreateDefaultSubobject<UHitComponent>(TEXT("Hit Component"));
+	HitComponent->SetShapeComponent(SphereComponent);
 }
 void APlayerSpaceship::BeginPlay()
 {
 	Super::BeginPlay();
-
+	UNiagaraFunctionLibrary::SpawnSystemAttached(TailFX,TailLocation,NAME_None, FVector(0.0f), FRotator(0.0f), EAttachLocation::SnapToTarget, true);
 }
 
 FVector APlayerSpaceship::GetRotationRateFromInputMotion()
@@ -55,10 +62,10 @@ void APlayerSpaceship::Move(const FVector& RotationRate)
 void APlayerSpaceship::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	Move(GetRotationRateFromInputMotion());
 	if (bIsPlayStarted)
 	{
-		Score += 10.00f;
+		Move(GetRotationRateFromInputMotion());
+		Score += 1.00f;
 	}
 }
 
@@ -78,6 +85,7 @@ void APlayerSpaceship::Damage()
 		{
 			GameMode->GameOver();
 		}
+		UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(),ExplosionFX,GetActorLocation(),FRotator(0.0f),FVector(0.05f));
 		Destroy();
 	}
 }
