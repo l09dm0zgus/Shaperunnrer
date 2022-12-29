@@ -54,10 +54,10 @@ private:
 	class UWeaponComponent* WeaponComponent;
 
 	UPROPERTY(EditAnywhere)
-	int32 Lives {3};
-
+	class UHitComponent  *HitComponent;
+	
 	UPROPERTY(EditAnywhere)
-	class UHitComponent *HitComponent;
+	int32 Lives {3};
 	
 	UPROPERTY(EditAnywhere)
 	class USceneComponent *TailLocation;

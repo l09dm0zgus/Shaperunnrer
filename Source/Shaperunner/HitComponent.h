@@ -22,8 +22,9 @@ protected:
 	virtual void BeginPlay() override;
 	class UShapeComponent* ShapeComponent;
 private:
+	bool hasActorTag(AActor *Actor,const FName &Tag);
 	void DamageOtherActor(AActor *OtherActor);
-	void DamageOwner(AActor *Owner);
+	void DamageOwner(AActor *Owner,AActor *OtherActor);
 	void DamagePlayer(AActor *OtherActor);
 	void DamageObstacle(AActor *OtherActor);
 };

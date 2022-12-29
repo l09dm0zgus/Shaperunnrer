@@ -17,7 +17,7 @@ void UHitComponent::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
 	{
 		AActor *Owner = GetOwner();
 		DamageOtherActor(OtherActor);
-		DamageOwner(Owner);
+		DamageOwner(Owner,OtherActor);
 	}
 }
 
@@ -51,14 +51,19 @@ void UHitComponent::DamageObstacle(AActor* OtherActor)
 	}
 }
 
+bool UHitComponent::hasActorTag(AActor* Actor, const FName& Tag)
+{
+	if(Actor->Tags.Num() != 0)
+	{
+		return Tag == Actor->Tags[0];
+	}
+	return false;
+}
+
 void UHitComponent::DamageOtherActor(AActor* OtherActor)
 {
-	FName OtherActorTag;
-	if(OtherActor->Tags.Num() != 0)
-	{
-		OtherActorTag = OtherActor->Tags[0];
-	}
-	if (OtherActorTag == FName(TEXT("Player")))
+
+	if (hasActorTag(OtherActor,FName(TEXT("Player"))))
 	{
 		DamagePlayer(OtherActor);
 	}
@@ -68,22 +73,18 @@ void UHitComponent::DamageOtherActor(AActor* OtherActor)
 	}
 }
 
-void UHitComponent::DamageOwner(AActor* Owner)
+void UHitComponent::DamageOwner(AActor* Owner,AActor *OtherActor)
 {
-	FName OwnerTag;
-	if(Owner->Tags.Num() != 0)
-	{
-		OwnerTag = Owner->Tags[0];
-	}
-	if (OwnerTag == FName(TEXT("Player")))
-	{
-		DamagePlayer(Owner);
-	}
-	else if (OwnerTag == FName(TEXT("Obstacle")))
+
+	if (hasActorTag(Owner,FName(TEXT("Obstacle"))))
 	{
 		DamageOtherActor(Owner);
 	}
-	else
+	else if(hasActorTag(Owner,FName(TEXT("Player"))) && hasActorTag(OtherActor,FName(TEXT("Obstacle"))))
+	{
+		DamagePlayer(Owner);
+	}
+	else if(hasActorTag(Owner,FName(TEXT("Projectile"))))
 	{
 		Owner->Destroy();
 	}
