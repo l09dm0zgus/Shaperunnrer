@@ -7,7 +7,6 @@
 #include "NiagaraComponent.h"
 #include "Components/SceneComponent.h"
 #include "Components/SphereComponent.h"
-#include "HitComponent.h"
 
 void ASpaceship::BeginPlay()
 {
@@ -30,4 +29,7 @@ ASpaceship::ASpaceship()
 void ASpaceship::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	FRotator NewRotation;
+	NewRotation.Roll  += AddToRotation * DeltaTime;
+	AddActorLocalRotation(NewRotation);
 }

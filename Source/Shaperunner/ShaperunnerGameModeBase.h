@@ -21,10 +21,15 @@ public:
 	void StartGame();
 
 	void GameOver();
+
+	UFUNCTION(BlueprintPure)
+	float GetScore();
 private:
 	TArray<AActor*> Obstacles;
-
+	TArray<AActor*> Projectiles;
+	
 	class APlatformMover* PlatformMover;
+	
 	class APlatformMover* GetPlatformMover();
 
 	virtual void BeginPlay() override;
@@ -40,6 +45,9 @@ private:
 	UPROPERTY(EditAnywhere)
 	float PlatformMoverSpeedAdd{ 0.1f };
 
+	UPROPERTY(EditAnywhere)
+	float AddingScoreRate{0.5f};
+	
 	class APlayerSpaceshipController* GetPlayerController();
 	class APlayerSpaceshipController* PlayerController;
 	class AObstacleSpawner* GetObstacleSpawner();
@@ -47,7 +55,12 @@ private:
 
 	void ChangeObstaclesSpeed();
 	void ChangePlatformMoverSpeed();
+	void AddScore();
+	void ClearActors();
 	FTimerHandle ObstaclesTimerHandle;
 	FTimerHandle PlatformMoverTimerHandle;
+	FTimerHandle ScoreAddingTimerHandle;
+	float Score{0.0};
 
 };
+

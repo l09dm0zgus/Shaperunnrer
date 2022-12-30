@@ -4,9 +4,9 @@
 #include "Obstacle.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
-#include "HitComponent.h"
 #include "NiagaraFunctionLibrary.h"
 #include "NiagaraComponent.h"
+#include "PlayerSpaceship.h"
 
 AObstacle::AObstacle()
 {
@@ -16,13 +16,18 @@ AObstacle::AObstacle()
 	RootComponent = SphereComponent;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(SphereComponent);
-	HitComponent = CreateDefaultSubobject<UHitComponent>(TEXT("Hit"));
-	HitComponent->SetShapeComponent(SphereComponent);
+
 }
 
 void AObstacle::BeginPlay()
 {
 	Super::BeginPlay();
+	SphereComponent->OnComponentHit.AddDynamic(this, &AObstacle::OnHit);
+}
+
+bool AObstacle::HasActorTag(AActor* Actor, const FName& Tag)
+{
+	return Actor->Tags.Contains(Tag);
 }
 
 void AObstacle::Tick(float DeltaTime)
@@ -42,6 +47,22 @@ void AObstacle::Damage()
 	{
 		UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(),ExplosionFX,GetActorLocation(),FRotator(0.0f),FVector(0.05f));
 		Destroy();
+	}
+}
+
+void AObstacle::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,FVector NormalImpulse, const FHitResult& Hit)
+{
+	
+	if(HasActorTag(OtherActor,FName(TEXT("Player"))))
+	{
+		APlayerSpaceship *PlayerSpaceship = Cast<APlayerSpaceship>(OtherActor);
+		PlayerSpaceship->Damage();
+		Damage();
+	}
+	else if (HasActorTag(OtherActor,FName(TEXT("Obstacle"))))
+	{
+		AObstacle  *Obstacle = Cast<AObstacle>(OtherActor);
+		Obstacle->Damage();
 	}
 }
 

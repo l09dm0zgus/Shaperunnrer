@@ -23,9 +23,6 @@ public:
 	UFUNCTION(BlueprintPure)
 	int32 GetLives();
 
-	UFUNCTION(BlueprintPure)
-	float GetScore();
-
 protected:
 	virtual void BeginPlay() override;
 private:
@@ -52,15 +49,13 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	class UWeaponComponent* WeaponComponent;
-
-	UPROPERTY(EditAnywhere)
-	class UHitComponent  *HitComponent;
+	
 	
 	UPROPERTY(EditAnywhere)
 	int32 Lives {3};
 	
 	UPROPERTY(EditAnywhere)
 	class USceneComponent *TailLocation;
+
 	
-	float Score{ 0.0f };
 };

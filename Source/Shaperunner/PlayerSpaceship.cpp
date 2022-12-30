@@ -10,7 +10,7 @@
 #include "WeaponComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "ShaperunnerGameModeBase.h"
-#include  "HitComponent.h"
+
 
 APlayerSpaceship::APlayerSpaceship()
 {
@@ -30,9 +30,7 @@ APlayerSpaceship::APlayerSpaceship()
 
 	TailLocation = CreateDefaultSubobject<USceneComponent>(TEXT("Tail Location"));
 	TailLocation->SetupAttachment(RootComponent);
-
-	HitComponent = CreateDefaultSubobject<UHitComponent>(TEXT("Hit Component"));
-	HitComponent->SetShapeComponent(SphereComponent);
+	
 }
 void APlayerSpaceship::BeginPlay()
 {
@@ -65,7 +63,6 @@ void APlayerSpaceship::Tick(float DeltaTime)
 	if (bIsPlayStarted)
 	{
 		Move(GetRotationRateFromInputMotion());
-		Score += 1.00f;
 	}
 }
 
@@ -95,7 +92,3 @@ int32 APlayerSpaceship::GetLives()
 	return Lives;
 }
 
-float APlayerSpaceship::GetScore()
-{
-	return Score;
-}

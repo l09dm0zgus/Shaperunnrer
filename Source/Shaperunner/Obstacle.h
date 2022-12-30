@@ -16,6 +16,10 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	void AddToSpeed(float SpeedAdd);
 	void Damage();
+	
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	
 protected:
 	void Move(float DeltaTime);
 	virtual void BeginPlay() override;
@@ -34,7 +38,6 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	class UNiagaraSystem* ExplosionFX;
-	
-	UPROPERTY(EditAnywhere)
-	class UHitComponent* HitComponent;
+
+	bool HasActorTag(AActor *Actor,const FName &Tag);
 };
