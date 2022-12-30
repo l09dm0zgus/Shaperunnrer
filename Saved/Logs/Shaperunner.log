@@ -1348,3 +1348,230 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2022.12.30-22.58.11:342][472]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 861 ms)
 [2022.12.30-22.58.11:383][473]AssetCheck: New page: Asset Save: BP_Meteor2
 [2022.12.30-22.58.11:383][473]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Meteor2.BP_Meteor2
+[2022.12.30-23.03.10:844][715]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.03.10:844][715]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.30-23.03.10:844][715]LogShaderCompilers: Display: Total job queries 171, among them cache hits 36 (21.05%)
+[2022.12.30-23.03.10:844][715]LogShaderCompilers: Display: Tracking 135 distinct input hashes that result in 86 distinct outputs (63.70%)
+[2022.12.30-23.03.10:844][715]LogShaderCompilers: Display: RAM used: 1.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.13%
+[2022.12.30-23.03.10:844][715]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.30-23.03.10:845][715]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.12.30-23.03.10:845][715]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.12.30-23.03.10:845][715]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.12.30-23.03.10:845][715]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.05.31:424][643]LogInterchangeEngine: [Pending] Importing
+[2022.12.30-23.05.31:424][643]LogInterchangeEngine: [Pending] Importing -  (2)
+[2022.12.30-23.05.31:425][643]LogInterchangeEngine: [Pending] Importing -  (3)
+[2022.12.30-23.05.31:425][643]LogInterchangeEngine: [Pending] Importing -  (4)
+[2022.12.30-23.05.31:499][644]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2022.12.30-23.05.31:499][644]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2022.12.30-23.05.31:499][644]LogInterchangeEngine: [Pending] Importing -  (4)
+[2022.12.30-23.05.31:605][645]LogTexture: Display: Building textures: /Game/textures/purehatredgameslogo.purehatredgameslogo (TFO_AutoDXT, 360x640 x1x1x1) (Required Memory Estimate: 38.148438 MB), EncodeSpeed: Fast
+[2022.12.30-23.05.31:605][645]LogTexture: Display: Building textures: /Game/textures/shaperruner_ico.shaperruner_ico (TFO_AutoDXT, 96x96 x1x1x1) (Required Memory Estimate: 1.515625 MB), EncodeSpeed: Fast
+[2022.12.30-23.05.31:607][645]LogTexture: Display: Building textures: /Game/textures/start_button.start_button (TFO_AutoDXT, 1536x1536 x1x1x1) (Required Memory Estimate: 162.0625 MB), EncodeSpeed: Fast
+[2022.12.30-23.05.31:607][645]LogTexture: Display: Building textures: /Game/textures/restart_button.restart_button (TFO_AutoDXT, 1536x1536 x1x1x1) (Required Memory Estimate: 162.0625 MB), EncodeSpeed: Fast
+[2022.12.30-23.05.31:642][646]LogInterchangeEngine: [Pending] Importing -  (3)
+[2022.12.30-23.05.31:642][646]LogInterchangeEngine: [Pending] Importing -  (2)
+[2022.12.30-23.05.31:642][646]LogInterchangeEngine: [Pending] Importing -  (1)
+[2022.12.30-23.05.31:655][646]LogInterchangeEngine: [Success] Import Done
+[2022.12.30-23.05.31:665][646]LogInterchangeEngine: [Success] Import Done
+[2022.12.30-23.05.37:535][197]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ui/StartGameScreen.StartGameScreen
+[2022.12.30-23.05.37:536][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.05.37:546][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.05.37:561][197]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2022.12.30-23.05.38:083][197]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.05.38:083][197]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.05.38:724][197]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2022.12.30-23.05.38:750][197]LogSlate: Took 0.019454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.12.30-23.06.49:196][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.12.30-23.06.49:209][349]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/MainLevel' took 0.101
+[2022.12.30-23.06.49:210][349]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/textures/purehatredgameslogo] ([1] browsable assets)...
+[2022.12.30-23.06.49:212][349]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/textures/purehatredgameslogo.purehatredgameslogo]
+[2022.12.30-23.06.49:212][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/purehatredgameslogo]
+[2022.12.30-23.06.49:215][349]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/purehatredgameslogo_Auto1
+[2022.12.30-23.06.49:215][349]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/purehatredgameslogo_Auto1F8FFABE84842C7DCA8414BA5F0097906.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/textures/purehatredgameslogo_Auto1.uasset'
+[2022.12.30-23.06.49:216][349]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/textures/restart_button] ([1] browsable assets)...
+[2022.12.30-23.06.49:220][349]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/textures/restart_button.restart_button]
+[2022.12.30-23.06.49:220][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/restart_button]
+[2022.12.30-23.06.49:227][349]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/restart_button_Auto1
+[2022.12.30-23.06.49:227][349]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/restart_button_Auto15DB29AA446F50B511287378CD066594A.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/textures/restart_button_Auto1.uasset'
+[2022.12.30-23.06.49:228][349]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/textures/shaperruner_ico] ([1] browsable assets)...
+[2022.12.30-23.06.49:230][349]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/textures/shaperruner_ico.shaperruner_ico]
+[2022.12.30-23.06.49:230][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/shaperruner_ico]
+[2022.12.30-23.06.49:232][349]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/shaperruner_ico_Auto1
+[2022.12.30-23.06.49:232][349]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/shaperruner_ico_Auto10E21E0B54186AE64A938039C8895FB04.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/textures/shaperruner_ico_Auto1.uasset'
+[2022.12.30-23.06.49:233][349]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/textures/start_button] ([1] browsable assets)...
+[2022.12.30-23.06.49:236][349]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/textures/start_button.start_button]
+[2022.12.30-23.06.49:236][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/textures/start_button]
+[2022.12.30-23.06.49:236][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/start_button" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/textures/start_button_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.12.30-23.06.49:243][349]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/textures/start_button_Auto1
+[2022.12.30-23.06.49:243][349]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/start_button_Auto1F075F30544756FAD40BAEBB28E062475.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/textures/start_button_Auto1.uasset'
+[2022.12.30-23.06.49:245][349]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ui/StartGameScreen] ([2] browsable assets)...
+[2022.12.30-23.06.49:251][349]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ui/StartGameScreen.StartGameScreen]
+[2022.12.30-23.06.49:251][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/ui/StartGameScreen]
+[2022.12.30-23.06.49:251][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/StartGameScreen" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/ui/StartGameScreen_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.12.30-23.06.49:284][349]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ui/StartGameScreen_Auto1
+[2022.12.30-23.06.49:284][349]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/StartGameScreen_Auto1BADBF93D4BC1250BA7B7B4AE3EFC4B00.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/ui/StartGameScreen_Auto1.uasset'
+[2022.12.30-23.06.49:293][349]LogFileHelpers: Auto-saving content packages took 0.076
+[2022.12.30-23.07.39:432][723]LogSlate: Took 0.017190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: Total job queries 175, among them cache hits 36 (20.57%)
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: Tracking 139 distinct input hashes that result in 90 distinct outputs (64.75%)
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: RAM used: 1.07 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.13%
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.12.30-23.07.39:753][732]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.09.25:283][754]BlueprintLog: New page: Compile StartGameScreen
+[2022.12.30-23.09.25:355][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.12.30-23.09.28:771][ 76]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.30-23.09.28:816][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.12.30-23.09.30:384][ 76]LogSlate: Window 'Save Content' being destroyed
+[2022.12.30-23.09.30:394][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.30-23.09.30:418][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/purehatredgameslogo" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/textures/purehatredgameslogo.uasset" SILENT=true
+[2022.12.30-23.09.30:466][ 76]LogSavePackage: Moving output files for package: /Game/textures/purehatredgameslogo
+[2022.12.30-23.09.30:466][ 76]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/purehatredgameslogoCA97EB8B475B849D085EDEB5984BF0E1.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/textures/purehatredgameslogo.uasset'
+[2022.12.30-23.09.30:475][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/restart_button" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/textures/restart_button.uasset" SILENT=true
+[2022.12.30-23.09.30:519][ 76]LogSavePackage: Moving output files for package: /Game/textures/restart_button
+[2022.12.30-23.09.30:519][ 76]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/restart_button78322BFE470CBFA1550824809DC8EDF6.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/textures/restart_button.uasset'
+[2022.12.30-23.09.30:520][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/shaperruner_ico" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/textures/shaperruner_ico.uasset" SILENT=true
+[2022.12.30-23.09.30:523][ 76]LogSavePackage: Moving output files for package: /Game/textures/shaperruner_ico
+[2022.12.30-23.09.30:523][ 76]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/shaperruner_icoA49735604546A3774793AC8B6FF3BBE7.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/textures/shaperruner_ico.uasset'
+[2022.12.30-23.09.30:524][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/start_button" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/textures/start_button.uasset" SILENT=true
+[2022.12.30-23.09.30:566][ 76]LogSavePackage: Moving output files for package: /Game/textures/start_button
+[2022.12.30-23.09.30:567][ 76]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/start_buttonF0F83FFB41BEC4DBC3CB71A923513E79.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/textures/start_button.uasset'
+[2022.12.30-23.09.30:570][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/StartGameScreen" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/StartGameScreen.uasset" SILENT=true
+[2022.12.30-23.09.30:576][ 76]LogSavePackage: Moving output files for package: /Game/ui/StartGameScreen
+[2022.12.30-23.09.30:577][ 76]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/StartGameScreenAA9BDE87403F5EE134BCD68B02D2D042.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/StartGameScreen.uasset'
+[2022.12.30-23.09.30:587][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 1.05 sec)
+[2022.12.30-23.09.30:627][ 77]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.30-23.09.30:627][ 77]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ui/StartGameScreen.StartGameScreen
+[2022.12.30-23.09.30:628][ 77]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/textures/start_button.start_button
+[2022.12.30-23.09.30:628][ 77]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/textures/shaperruner_ico.shaperruner_ico
+[2022.12.30-23.09.30:628][ 77]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/textures/restart_button.restart_button
+[2022.12.30-23.09.30:628][ 77]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/textures/purehatredgameslogo.purehatredgameslogo
+[2022.12.30-23.10.47:763][ 56]LogEditorTransaction: Undo Set Vector Property
+[2022.12.30-23.11.18:584][796]LogEditorTransaction: Undo Set Vector Property
+[2022.12.30-23.11.25:236][365]LogEditorTransaction: Undo Set Vector Property
+[2022.12.30-23.11.27:384][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.30-23.11.27:410][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/StartGameScreen" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/StartGameScreen.uasset" SILENT=true
+[2022.12.30-23.11.27:417][521]LogSavePackage: Moving output files for package: /Game/ui/StartGameScreen
+[2022.12.30-23.11.27:418][521]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/StartGameScreen0A42191F4C412365BCC15F994E0A0253.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/StartGameScreen.uasset'
+[2022.12.30-23.11.27:427][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.09 sec)
+[2022.12.30-23.11.27:434][521]AssetCheck: New page: Asset Save: StartGameScreen
+[2022.12.30-23.11.27:434][521]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ui/StartGameScreen.StartGameScreen
+[2022.12.30-23.11.30:715][807]LogSlate: Window 'StartGameScreen' being destroyed
+[2022.12.30-23.11.30:721][807]LogSlate: Window 'StartGameScreen' being destroyed
+[2022.12.30-23.11.30:911][807]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.11.30:911][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.11.30:920][807]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.11.30:920][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.11.33:549][ 91]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ui/GameOverScreen.GameOverScreen
+[2022.12.30-23.11.33:549][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.11.33:555][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.11.34:131][ 91]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.11.34:131][ 91]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Total job queries 230, among them cache hits 45 (19.57%)
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Tracking 185 distinct input hashes that result in 122 distinct outputs (65.95%)
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: RAM used: 1.37 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Shaders Compiled: 16
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Jobs assigned 16, completed 16 (100.00%)
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Time job spent in pending queue: average 1.26 s, longest 3.15 s
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Job execution time: average 1.83 s, max 3.13 s
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Job life time (pending + execution): average 3.09 s, max 4.27
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.33 s
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Average processing rate: 3.69 jobs/sec
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Total thread time: 11.93 s
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Total thread preprocess time: 0.68 s
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Percentage time preprocessing: 5.66%
+[2022.12.30-23.11.44:597][ 19]LogShaderCompilers: Display: Effective parallelization: 2.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.40 sec, max 1.45 sec, min 1.35 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 1.22 sec, max 1.22 sec, min 1.21 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 1.11 sec, max 1.16 sec, min 1.06 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.95 sec, max 1.04 sec, min 0.86 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    2 times, average 0.68 sec, max 0.72 sec, min 0.64 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.48% of total time (compiled    2 times, average 1.40 sec, max 1.45 sec, min 1.35 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 20.39% of total time (compiled    2 times, average 1.22 sec, max 1.22 sec, min 1.21 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.66% of total time (compiled    2 times, average 1.11 sec, max 1.16 sec, min 1.06 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.90% of total time (compiled    2 times, average 0.95 sec, max 1.04 sec, min 0.86 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 11.40% of total time (compiled    2 times, average 0.68 sec, max 0.72 sec, min 0.64 sec)
+[2022.12.30-23.11.44:598][ 19]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.12.25:842][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.30-23.12.25:870][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/GameOverScreen" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/GameOverScreen.uasset" SILENT=true
+[2022.12.30-23.12.25:879][262]LogSavePackage: Moving output files for package: /Game/ui/GameOverScreen
+[2022.12.30-23.12.25:880][262]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/GameOverScreenFCECAB264EE1D70D1E2048B8E56A886E.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/GameOverScreen.uasset'
+[2022.12.30-23.12.25:888][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.14 sec)
+[2022.12.30-23.12.25:896][262]AssetCheck: New page: Asset Save: GameOverScreen
+[2022.12.30-23.12.25:896][262]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ui/GameOverScreen.GameOverScreen
+[2022.12.30-23.12.32:136][797]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ui/StartGameScreen.StartGameScreen
+[2022.12.30-23.12.32:137][797]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.12.32:146][797]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.12.32:575][797]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.12.32:575][797]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.12.37:225][105]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.30-23.12.37:254][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/StartGameScreen" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/StartGameScreen.uasset" SILENT=true
+[2022.12.30-23.12.37:262][105]LogSavePackage: Moving output files for package: /Game/ui/StartGameScreen
+[2022.12.30-23.12.37:263][105]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/StartGameScreen9AC104D748578BFF60348A9E14A845AD.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/StartGameScreen.uasset'
+[2022.12.30-23.12.37:271][105]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 1.18 sec)
+[2022.12.30-23.12.37:279][105]AssetCheck: New page: Asset Save: StartGameScreen
+[2022.12.30-23.12.37:279][105]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ui/StartGameScreen.StartGameScreen
+[2022.12.30-23.12.38:852][245]LogSlate: Window 'StartGameScreen' being destroyed
+[2022.12.30-23.12.38:858][245]LogSlate: Window 'StartGameScreen' being destroyed
+[2022.12.30-23.12.38:866][245]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.12.38:866][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.12.38:875][245]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.12.38:875][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.12.38:928][245]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.12.38:928][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.12.38:937][245]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.12.38:937][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.12.41:166][502]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.30-23.12.41:241][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.12.30-23.12.47:209][183]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.30-23.12.47:275][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.12.30-23.13.52:223][714]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ui/GameOverScreen.GameOverScreen
+[2022.12.30-23.13.52:223][714]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.13.52:238][714]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.13.52:718][714]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.13.52:718][714]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.14.13:471][581]BlueprintLog: New page: Compile GameOverScreen
+[2022.12.30-23.14.13:519][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.12.30-23.14.14:537][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.30-23.14.14:563][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/GameOverScreen" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/GameOverScreen.uasset" SILENT=true
+[2022.12.30-23.14.14:571][653]LogSavePackage: Moving output files for package: /Game/ui/GameOverScreen
+[2022.12.30-23.14.14:572][653]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/GameOverScreen58B00E7A4008005FF92C89849A87E460.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/GameOverScreen.uasset'
+[2022.12.30-23.14.14:580][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 1.23 sec)
+[2022.12.30-23.14.14:586][653]AssetCheck: New page: Asset Save: GameOverScreen
+[2022.12.30-23.14.14:586][653]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ui/GameOverScreen.GameOverScreen
+[2022.12.30-23.14.16:365][805]LogSlate: Window 'GameOverScreen' being destroyed
+[2022.12.30-23.14.16:372][805]LogSlate: Window 'GameOverScreen' being destroyed
+[2022.12.30-23.14.16:379][805]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.14.16:379][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.14.16:387][805]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.14.16:387][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.14.19:688][162]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ui/StartGameScreen.StartGameScreen
+[2022.12.30-23.14.19:688][162]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.14.19:703][162]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.14.20:171][162]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.14.20:171][162]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.12.30-23.14.37:901][767]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.30-23.14.37:920][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ui/StartGameScreen" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/StartGameScreen.uasset" SILENT=true
+[2022.12.30-23.14.37:927][767]LogSavePackage: Moving output files for package: /Game/ui/StartGameScreen
+[2022.12.30-23.14.37:927][767]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/StartGameScreen9BF7C0594FB0C281DECA72BFD0565D8B.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/ui/StartGameScreen.uasset'
+[2022.12.30-23.14.37:937][767]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 1.26 sec)
+[2022.12.30-23.14.37:943][767]AssetCheck: New page: Asset Save: StartGameScreen
+[2022.12.30-23.14.37:943][767]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ui/StartGameScreen.StartGameScreen
+[2022.12.30-23.14.40:060][952]LogSlate: Window 'StartGameScreen' being destroyed
+[2022.12.30-23.14.40:066][952]LogSlate: Window 'StartGameScreen' being destroyed
+[2022.12.30-23.14.40:074][952]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.14.40:074][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.14.40:081][952]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.14.40:081][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
