@@ -1575,3 +1575,37 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2022.12.30-23.14.40:074][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2022.12.30-23.14.40:081][952]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
 [2022.12.30-23.14.40:081][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Total job queries 233, among them cache hits 45 (19.31%)
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Tracking 188 distinct input hashes that result in 125 distinct outputs (66.49%)
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: RAM used: 1.40 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Shaders Compiled: 16
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Jobs assigned 16, completed 16 (100.00%)
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Time job spent in pending queue: average 1.26 s, longest 3.15 s
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Job execution time: average 1.83 s, max 3.13 s
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Job life time (pending + execution): average 3.09 s, max 4.27
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.33 s
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Average processing rate: 3.69 jobs/sec
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Total thread time: 11.93 s
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Total thread preprocess time: 0.68 s
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Percentage time preprocessing: 5.66%
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Effective parallelization: 2.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.12.30-23.15.57:264][885]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.40 sec, max 1.45 sec, min 1.35 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 1.22 sec, max 1.22 sec, min 1.21 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 1.11 sec, max 1.16 sec, min 1.06 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.95 sec, max 1.04 sec, min 0.86 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    2 times, average 0.68 sec, max 0.72 sec, min 0.64 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.48% of total time (compiled    2 times, average 1.40 sec, max 1.45 sec, min 1.35 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 20.39% of total time (compiled    2 times, average 1.22 sec, max 1.22 sec, min 1.21 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.66% of total time (compiled    2 times, average 1.11 sec, max 1.16 sec, min 1.06 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.90% of total time (compiled    2 times, average 0.95 sec, max 1.04 sec, min 0.86 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 11.40% of total time (compiled    2 times, average 0.68 sec, max 0.72 sec, min 0.64 sec)
+[2022.12.30-23.15.57:265][885]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.23.17:793][230]LogSlate: Window 'Project Settings' being destroyed
+[2022.12.30-23.23.17:798][230]LogSlate: Window 'Project Settings' being destroyed
