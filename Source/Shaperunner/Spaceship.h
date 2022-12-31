@@ -30,7 +30,8 @@ private:
 	class UWeaponComponent* WeaponComponent;
 
 	UPROPERTY(EditAnywhere)
-	double AddToRotation{5.5};
+	double AddToRotation{30};
+
 public:
 	ASpaceship();
 	virtual void Tick(float DeltaTime) override;

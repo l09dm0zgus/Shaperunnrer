@@ -3,6 +3,7 @@
 
 #include "WeaponComponent.h"
 #include "Projectile.h"
+#include "Kismet/GameplayStatics.h"
 
 UWeaponComponent::UWeaponComponent()
 {
@@ -12,6 +13,10 @@ UWeaponComponent::UWeaponComponent()
 void UWeaponComponent::Fire()
 {
 	auto Projectile = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, GetComponentLocation(), GetComponentRotation());
+	if (FireSound != nullptr)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetComponentLocation());
+	}
 	Projectile->SetOwner(GetOwner());
 }
 

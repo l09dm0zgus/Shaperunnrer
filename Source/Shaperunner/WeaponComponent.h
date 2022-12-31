@@ -20,5 +20,8 @@ protected:
 private:	
 
 	UPROPERTY(EditAnywhere)
+	class USoundBase* FireSound;
+	
+	UPROPERTY(EditAnywhere)
 	TSubclassOf<class AProjectile> ProjectileClass;
 };

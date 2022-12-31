@@ -25,6 +25,9 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere)
+	class USoundBase* ExplosionSound;
+	
+	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent* Mesh;
 
 	UPROPERTY(EditAnywhere)

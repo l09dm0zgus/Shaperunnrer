@@ -1609,3 +1609,896 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2022.12.30-23.15.57:265][885]LogShaderCompilers: Display: ================================================
 [2022.12.30-23.23.17:793][230]LogSlate: Window 'Project Settings' being destroyed
 [2022.12.30-23.23.17:798][230]LogSlate: Window 'Project Settings' being destroyed
+[2022.12.30-23.24.42:140][380]LogSlate: Window 'Project Settings' being destroyed
+[2022.12.30-23.24.42:147][380]LogSlate: Window 'Project Settings' being destroyed
+[2022.12.30-23.24.49:496][156]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.12.30-23.24.49:508][156]LogContentBrowser: Creating deferred item: NewFolder
+[2022.12.30-23.24.49:523][157]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.12.30-23.24.52:972][561]LogContentBrowser: Attempting asset rename: NewFolder -> sounds
+[2022.12.30-23.24.52:972][561]LogContentBrowser: End creating deferred item NewFolder
+[2022.12.30-23.30.03:861][830]LogAssetTools: Warning: Two factories registered with same priority : WmfFileMediaSourceFactory_0 and AvfFileMediaSourceFactory_0
+[2022.12.30-23.30.03:908][830]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\maximiich143\Runenweltbild-Runenweltbild.mp3)
+[2022.12.30-23.30.08:213][ 77]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.30.08:213][ 77]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.30.08:326][ 77]LogActorFactory: Actor Factory spawned FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: MediaPlate /Game/levels/MainLevel.MainLevel:PersistentLevel.MediaPlate_0
+[2022.12.30-23.30.08:327][ 77]LogActorFactory: Actor Factory spawned FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: MediaPlate /Game/levels/MainLevel.MainLevel:PersistentLevel.MediaPlate_0
+[2022.12.30-23.30.08:958][146]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.30.08:958][146]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.30.08:971][146]LogActorFactory: Actor Factory spawned FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: MediaPlate /Game/levels/MainLevel.MainLevel:PersistentLevel.MediaPlate_1
+[2022.12.30-23.30.08:972][146]LogActorFactory: Actor Factory spawned FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: MediaPlate /Game/levels/MainLevel.MainLevel:PersistentLevel.MediaPlate_1
+[2022.12.30-23.30.09:183][146]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.30.09:183][146]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.30-23.30.09:183][146]LogShaderCompilers: Display: Total job queries 254, among them cache hits 48 (18.90%)
+[2022.12.30-23.30.09:183][146]LogShaderCompilers: Display: Tracking 203 distinct input hashes that result in 136 distinct outputs (67.00%)
+[2022.12.30-23.30.09:183][146]LogShaderCompilers: Display: RAM used: 1.48 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.18%
+[2022.12.30-23.30.09:183][146]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.30-23.30.09:183][146]LogShaderCompilers: Display: Shaders Compiled: 17
+[2022.12.30-23.30.09:183][146]LogShaderCompilers: Display: Jobs assigned 20, completed 17 (85.00%)
+[2022.12.30-23.30.09:183][146]LogShaderCompilers: Display: Average time worker was idle: 446.06 s
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Time job spent in pending queue: average 1.01 s, longest 3.15 s
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Job execution time: average 1.77 s, max 3.13 s
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Job life time (pending + execution): average 2.95 s, max 4.27
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.07 s
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Average processing rate: 3.35 jobs/sec
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Total thread time: 12.37 s
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Total thread preprocess time: 0.71 s
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Percentage time preprocessing: 5.76%
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Effective parallelization: 2.44 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.40 sec, max 1.45 sec, min 1.35 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 1.22 sec, max 1.22 sec, min 1.21 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 1.11 sec, max 1.16 sec, min 1.06 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.95 sec, max 1.04 sec, min 0.86 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    2 times, average 0.68 sec, max 0.72 sec, min 0.64 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.64% of total time (compiled    2 times, average 1.40 sec, max 1.45 sec, min 1.35 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 19.65% of total time (compiled    2 times, average 1.22 sec, max 1.22 sec, min 1.21 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.99% of total time (compiled    2 times, average 1.11 sec, max 1.16 sec, min 1.06 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.32% of total time (compiled    2 times, average 0.95 sec, max 1.04 sec, min 0.86 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 10.99% of total time (compiled    2 times, average 0.68 sec, max 0.72 sec, min 0.64 sec)
+[2022.12.30-23.30.09:184][146]LogShaderCompilers: Display: ================================================
+[2022.12.30-23.30.55:541][ 93]LogDebuggerCommands: Repeating last play command: Mobile Preview ES3.1 (PIE)
+[2022.12.30-23.30.55:628][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.12.30-23.30.56:993][ 93]LogSlate: Window 'Save Content' being destroyed
+[2022.12.30-23.30.57:001][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.30-23.30.57:036][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.30-23.30.57:103][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.12.30-23.30.57:128][ 93]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.30-23.30.57:129][ 93]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevelF73D7FDE4BB22EACF32DCCBB0B7DD2EC.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.30-23.30.57:166][ 93]LogFileHelpers: Saving map 'MainLevel' took 0.141
+[2022.12.30-23.30.57:167][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sounds/Runenweltbild-Runenweltbild" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/sounds/Runenweltbild-Runenweltbild.uasset" SILENT=true
+[2022.12.30-23.30.57:168][ 93]LogSavePackage: Moving output files for package: /Game/sounds/Runenweltbild-Runenweltbild
+[2022.12.30-23.30.57:168][ 93]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Runenweltbild-Runenweltbild47A31F0A4543170CCF9DA8BDDB299079.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/sounds/Runenweltbild-Runenweltbild.uasset'
+[2022.12.30-23.30.57:174][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 1.44 sec)
+[2022.12.30-23.30.57:227][ 94]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.30-23.30.57:227][ 94]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.30-23.30.57:227][ 94]LogContentValidation: Display: Validating /Script/MediaAssets.FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.31.18:796][512]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.12.30-23.31.18:803][512]LogPlayLevel: [PlayLevel] Compiling StartGameScreen before play...
+[2022.12.30-23.31.18:853][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.12.30-23.31.18:856][512]LogPlayLevel: PlayLevel: Blueprint regeneration took 59 ms (1 blueprints)
+[2022.12.30-23.31.18:871][512]PIE: New page: PIE session: MainLevel (31 груд. 2022 р., 05:31:18)
+[2022.12.30-23.31.18:886][512]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.12.30-23.31.18:899][512]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.12.30-23.31.18:900][512]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_MainLevel
+[2022.12.30-23.31.18:952][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052279s)
+[2022.12.30-23.31.18:952][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/MainLevel.MainLevel to /Game/levels/UEDPIE_0_MainLevel.MainLevel (0.052327s)
+[2022.12.30-23.31.18:953][512]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.31.18:953][512]LogAIModule: Creating AISystem for world MainLevel
+[2022.12.30-23.31.18:953][512]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2022.12.30-23.31.18:992][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.12.30-23.31.18:993][512]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.12.30-23.31.18:993][512]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.30-23.31.18:993][512]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.30-23.31.18:993][512]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.30-23.31.18:993][512]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.30-23.31.18:993][512]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.30-23.31.18:993][512]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.30-23.31.18:993][512]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.30-23.31.18:993][512]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.30-23.31.18:994][512]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.30-23.31.18:994][512]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.30-23.31.18:994][512]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.30-23.31.18:996][512]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.30-23.31.19:016][512]LogAudioMixer: Display: Using Audio Hardware Device Наушники (2- Rift S)
+[2022.12.30-23.31.19:016][512]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.30-23.31.19:017][512]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.30-23.31.19:017][512]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.30-23.31.19:017][512]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.12.30-23.31.19:017][512]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.12.30-23.31.19:019][512]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.12.30-23.31.19:019][512]LogInit: FAudioDevice initialized.
+[2022.12.30-23.31.19:019][512]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.12.30-23.31.19:019][512]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainLevel'.
+[2022.12.30-23.31.19:033][512]LogLinker: Warning: Unable to load Hit Component with outer BP_PlayerSpaceship_C /Game/blueprints/BP_PlayerSpaceship.Default__BP_PlayerSpaceship_C because its class (HitComponent) does not exist
+[2022.12.30-23.31.19:089][512]LogLoad: Game class is 'BP_ShaperunnerGameModeBase_C'
+[2022.12.30-23.31.19:090][512]LogWorld: Bringing World /Game/levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.12.31-02.31.19
+[2022.12.30-23.31.19:091][512]LogWorld: Bringing up level for play took: 0.000948
+[2022.12.30-23.31.19:093][512]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2022.12.30-23.31.19:124][512]PIE: Server logged in
+[2022.12.30-23.31.19:125][512]PIE: Play in editor total start time 0,375 seconds.
+[2022.12.30-23.31.19:159][512]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/models/playermodel.playermodel being ready before playing
+[2022.12.30-23.31.24:810][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.30-23.31.24:810][ 92]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_MainLevel
+[2022.12.30-23.31.24:810][ 92]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.31.24:811][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.31.24:830][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.30-23.31.24:836][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.31.24:873][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.30-23.31.24:873][ 92]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.12.30-23.31.24:875][ 92]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.12.30-23.31.24:914][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.12.30-23.31.24:968][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.12.30-23.31.27:550][372]Cmd: DELETE
+[2022.12.30-23.31.27:561][372]Cmd: ACTOR DELETE
+[2022.12.30-23.31.27:734][372]LogEditorActor: Deleted Actor: MediaPlate
+[2022.12.30-23.31.27:786][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.12.30-23.31.27:796][372]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2022.12.30-23.31.30:201][643]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2022.12.30-23.31.53:537][254]LogContentBrowser: Deferred new asset file creation: NewMetaSoundSource
+[2022.12.30-23.31.53:542][254]LogContentBrowser: Creating deferred item: NewMetaSoundSource
+[2022.12.30-23.31.53:610][255]LogContentBrowser: Renaming the item being created (Deferred Item: NewMetaSoundSource).
+[2022.12.30-23.31.54:695][376]LogContentBrowser: Attempting asset rename: NewMetaSoundSource -> NewMetaSoundSource
+[2022.12.30-23.31.54:787][376]LogContentBrowser: End creating deferred item NewMetaSoundSource
+[2022.12.30-23.32.00:476][997]LogActorFactory: Actor Factory attempting to spawn MetaSoundSource /Game/sounds/NewMetaSoundSource.NewMetaSoundSource
+[2022.12.30-23.32.00:476][997]LogActorFactory: Actor Factory attempting to spawn MetaSoundSource /Game/sounds/NewMetaSoundSource.NewMetaSoundSource
+[2022.12.30-23.32.00:586][997]LogActorFactory: Actor Factory spawned MetaSoundSource /Game/sounds/NewMetaSoundSource.NewMetaSoundSource as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_0
+[2022.12.30-23.32.00:586][997]LogActorFactory: Actor Factory spawned MetaSoundSource /Game/sounds/NewMetaSoundSource.NewMetaSoundSource as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_0
+[2022.12.30-23.32.01:228][ 68]LogActorFactory: Actor Factory attempting to spawn MetaSoundSource /Game/sounds/NewMetaSoundSource.NewMetaSoundSource
+[2022.12.30-23.32.01:228][ 68]LogActorFactory: Actor Factory attempting to spawn MetaSoundSource /Game/sounds/NewMetaSoundSource.NewMetaSoundSource
+[2022.12.30-23.32.01:229][ 68]LogActorFactory: Actor Factory spawned MetaSoundSource /Game/sounds/NewMetaSoundSource.NewMetaSoundSource as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_1
+[2022.12.30-23.32.01:229][ 68]LogActorFactory: Actor Factory spawned MetaSoundSource /Game/sounds/NewMetaSoundSource.NewMetaSoundSource as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_1
+[2022.12.30-23.32.44:585][884]Cmd: DELETE
+[2022.12.30-23.32.44:585][884]Cmd: ACTOR DELETE
+[2022.12.30-23.32.44:587][884]LogEditorActor: Deleted Actor: AmbientSound
+[2022.12.30-23.32.44:620][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.12.30-23.32.44:626][884]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2022.12.30-23.32.47:977][260]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.32.47:977][260]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.32.47:979][260]LogActorFactory: Actor Factory spawned FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: MediaPlate /Game/levels/MainLevel.MainLevel:PersistentLevel.MediaPlate_2
+[2022.12.30-23.32.47:979][260]LogActorFactory: Actor Factory spawned FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: MediaPlate /Game/levels/MainLevel.MainLevel:PersistentLevel.MediaPlate_2
+[2022.12.30-23.32.48:750][349]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.32.48:750][349]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.32.48:752][349]LogActorFactory: Actor Factory spawned FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: MediaPlate /Game/levels/MainLevel.MainLevel:PersistentLevel.MediaPlate_3
+[2022.12.30-23.32.48:752][349]LogActorFactory: Actor Factory spawned FileMediaSource /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: MediaPlate /Game/levels/MainLevel.MainLevel:PersistentLevel.MediaPlate_3
+[2022.12.30-23.32.57:327][286]LogAssetEditorSubsystem: Opening Asset editor for MediaPlateComponent /Game/levels/MainLevel.MainLevel:PersistentLevel.MediaPlate_3.MediaPlateComponent0
+[2022.12.30-23.33.00:031][515]LogSlate: Window 'MediaPlateComponent0' being destroyed
+[2022.12.30-23.33.00:038][515]LogSlate: Window 'MediaPlateComponent0' being destroyed
+[2022.12.30-23.33.04:265][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.12.30-23.33.05:772][941]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.30-23.33.08:227][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.12.30-23.33.09:299][215]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.30-23.33.09:325][215]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/sounds/NewMetaSoundSource.NewMetaSoundSource
+	Asset Type: MetaSoundSource
+[2022.12.30-23.33.10:196][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.12.30-23.33.10:220][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.12.30-23.33.10:244][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.12.30-23.35.16:778][852]LogViewport: Scene viewport resized to 1014x393, mode Windowed.
+[2022.12.30-23.37.24:083][936]LogViewport: Scene viewport resized to 2038x611, mode Windowed.
+[2022.12.30-23.37.25:174][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.30-23.37.25:194][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.30-23.37.25:221][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.12.30-23.37.25:235][ 55]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.30-23.37.25:235][ 55]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevelEBF61B6645101F03C5B0269450BF498E.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.30-23.37.25:247][ 55]LogFileHelpers: Saving map 'MainLevel' took 0.053
+[2022.12.30-23.37.25:254][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.52 sec)
+[2022.12.30-23.37.25:261][ 55]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.30-23.37.25:261][ 55]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.30-23.37.28:594][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.12.30-23.37.30:715][406]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.30-23.37.30:789][406]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+	Asset Type: FileMediaSource
+[2022.12.30-23.37.31:107][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.12.30-23.37.31:132][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.12.30-23.37.31:155][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.30-23.37.41:008][778]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:/Users/cx9ps3/Downloads/Runenweltbild-Runenweltbild.wav)
+[2022.12.30-23.37.41:132][778]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Runenweltbild-Runenweltbild...
+[2022.12.30-23.37.42:818][778]LogAudio: Display: Chunk size for SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild: 262144
+[2022.12.30-23.37.42:821][778]LogAudio: Display: Sound Wave SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild is very large, requiring 33 chunks.
+[2022.12.30-23.37.42:862][778]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Runenweltbild-Runenweltbild...
+[2022.12.30-23.37.44:660][932]LogAudio: Display: Chunk size for SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild: 262144
+[2022.12.30-23.37.44:662][932]LogAudio: Display: Sound Wave SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild is very large, requiring 33 chunks.
+[2022.12.30-23.37.47:918][214]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.37.47:919][214]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.37.47:919][214]LogActorFactory: Actor Factory spawned SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_2
+[2022.12.30-23.37.47:926][214]LogActorFactory: Actor Factory spawned SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_2
+[2022.12.30-23.37.48:720][304]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.37.48:720][304]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild
+[2022.12.30-23.37.48:721][304]LogActorFactory: Actor Factory spawned SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_3
+[2022.12.30-23.37.48:721][304]LogActorFactory: Actor Factory spawned SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_3
+[2022.12.30-23.38.15:101][375]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.30-23.38.15:110][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.30-23.38.15:110][375]PIE: New page: PIE session: MainLevel (31 груд. 2022 р., 05:38:15)
+[2022.12.30-23.38.15:111][375]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_MainLevel
+[2022.12.30-23.38.15:115][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004558s)
+[2022.12.30-23.38.15:115][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/MainLevel.MainLevel to /Game/levels/UEDPIE_0_MainLevel.MainLevel (0.004599s)
+[2022.12.30-23.38.15:115][375]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.38.15:116][375]LogAIModule: Creating AISystem for world MainLevel
+[2022.12.30-23.38.15:116][375]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2022.12.30-23.38.15:141][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.12.30-23.38.15:144][375]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.12.30-23.38.15:144][375]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.30-23.38.15:144][375]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.30-23.38.15:144][375]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.30-23.38.15:144][375]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.30-23.38.15:144][375]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.30-23.38.15:144][375]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.30-23.38.15:144][375]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.30-23.38.15:144][375]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.30-23.38.15:144][375]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.30-23.38.15:144][375]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.30-23.38.15:144][375]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.30-23.38.15:146][375]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.30-23.38.15:164][375]LogAudioMixer: Display: Using Audio Hardware Device Наушники (2- Rift S)
+[2022.12.30-23.38.15:164][375]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.30-23.38.15:164][375]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.30-23.38.15:165][375]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.30-23.38.15:165][375]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.12.30-23.38.15:165][375]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.12.30-23.38.15:167][375]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.12.30-23.38.15:167][375]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.12.30-23.38.15:167][375]LogInit: FAudioDevice initialized.
+[2022.12.30-23.38.15:167][375]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainLevel'.
+[2022.12.30-23.38.15:170][375]LogLoad: Game class is 'BP_ShaperunnerGameModeBase_C'
+[2022.12.30-23.38.15:171][375]LogWorld: Bringing World /Game/levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.12.31-02.38.15
+[2022.12.30-23.38.15:171][375]LogWorld: Bringing up level for play took: 0.000854
+[2022.12.30-23.38.15:173][375]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2022.12.30-23.38.15:186][375]LogMediaPlate: Warning: Could not play anything.
+[2022.12.30-23.38.15:187][375]PIE: Server logged in
+[2022.12.30-23.38.15:188][375]PIE: Play in editor total start time 0,077 seconds.
+[2022.12.30-23.38.40:340][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.30-23.38.40:340][368]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_MainLevel
+[2022.12.30-23.38.40:340][368]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.38.40:341][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.38.40:356][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.30-23.38.40:361][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.38.40:385][368]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.30-23.38.40:385][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.12.30-23.38.40:387][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.12.30-23.38.40:391][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.30-23.38.40:393][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.12.30-23.38.40:448][369]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.12.30-23.39.45:977][ 53]Cmd: DELETE
+[2022.12.30-23.39.45:977][ 53]Cmd: ACTOR DELETE
+[2022.12.30-23.39.45:979][ 53]LogEditorActor: Deleted Actor: MediaPlate
+[2022.12.30-23.39.45:980][ 53]LogEditorActor: Deleted Actor: AmbientSound
+[2022.12.30-23.39.46:006][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2022.12.30-23.39.46:009][ 53]LogEditorActor: Deleted 2 Actors (0.032 secs)
+[2022.12.30-23.39.52:451][708]LogContentBrowser: Deferred new asset file creation: Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.39.52:463][708]LogContentBrowser: Creating deferred item: Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.39.52:471][709]LogContentBrowser: Renaming the item being created (Deferred Item: Runenweltbild-Runenweltbild_Cue).
+[2022.12.30-23.39.53:944][876]LogContentBrowser: Attempting asset rename: Runenweltbild-Runenweltbild_Cue -> Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.39.53:965][876]LogContentBrowser: End creating deferred item Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.39.54:484][938]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.42.11:856][462]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.30-23.42.11:882][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sounds/Runenweltbild-Runenweltbild_Cue" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/sounds/Runenweltbild-Runenweltbild_Cue.uasset" SILENT=true
+[2022.12.30-23.42.11:891][462]LogSavePackage: Moving output files for package: /Game/sounds/Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.42.11:891][462]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Runenweltbild-Runenweltbild_Cue40CB7C9D40F774D1001538A5A6FA671C.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/sounds/Runenweltbild-Runenweltbild_Cue.uasset'
+[2022.12.30-23.42.11:899][462]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 1.56 sec)
+[2022.12.30-23.42.11:906][462]AssetCheck: New page: Asset Save: Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.42.11:906][462]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.42.13:166][584]LogSlate: Window 'Runenweltbild-Runenweltbild_Cue' being destroyed
+[2022.12.30-23.42.13:172][584]LogSlate: Window 'Runenweltbild-Runenweltbild_Cue' being destroyed
+[2022.12.30-23.42.16:133][906]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.42.16:133][906]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.42.16:133][906]LogActorFactory: Actor Factory spawned SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_4
+[2022.12.30-23.42.16:133][906]LogActorFactory: Actor Factory spawned SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_4
+[2022.12.30-23.42.16:994][  6]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.42.16:994][  6]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue
+[2022.12.30-23.42.16:996][  6]LogActorFactory: Actor Factory spawned SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_5
+[2022.12.30-23.42.16:996][  6]LogActorFactory: Actor Factory spawned SoundCue /Game/sounds/Runenweltbild-Runenweltbild_Cue.Runenweltbild-Runenweltbild_Cue as actor: AmbientSound /Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_5
+[2022.12.30-23.42.19:102][236]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.30-23.42.19:108][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.30-23.42.19:108][236]PIE: New page: PIE session: MainLevel (31 груд. 2022 р., 05:42:19)
+[2022.12.30-23.42.19:109][236]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_MainLevel
+[2022.12.30-23.42.19:112][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003613s)
+[2022.12.30-23.42.19:112][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/MainLevel.MainLevel to /Game/levels/UEDPIE_0_MainLevel.MainLevel (0.003657s)
+[2022.12.30-23.42.19:112][236]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.30-23.42.19:113][236]LogAIModule: Creating AISystem for world MainLevel
+[2022.12.30-23.42.19:123][236]LogPlayLevel: PIE: World Init took: (0.011082s)
+[2022.12.30-23.42.19:148][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.12.30-23.42.19:150][236]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.12.30-23.42.19:150][236]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.30-23.42.19:150][236]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.30-23.42.19:150][236]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.30-23.42.19:150][236]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.30-23.42.19:150][236]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.30-23.42.19:150][236]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.30-23.42.19:150][236]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.30-23.42.19:150][236]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.30-23.42.19:151][236]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.30-23.42.19:151][236]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.30-23.42.19:151][236]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.30-23.42.19:167][236]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.30-23.42.19:185][236]LogAudioMixer: Display: Using Audio Hardware Device Наушники (2- Rift S)
+[2022.12.30-23.42.19:185][236]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.30-23.42.19:185][236]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.30-23.42.19:185][236]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.30-23.42.19:185][236]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.12.30-23.42.19:186][236]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.12.30-23.42.19:188][236]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.12.30-23.42.19:188][236]LogInit: FAudioDevice initialized.
+[2022.12.30-23.42.19:188][236]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.12.30-23.42.19:188][236]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainLevel'.
+[2022.12.30-23.42.19:191][236]LogLoad: Game class is 'BP_ShaperunnerGameModeBase_C'
+[2022.12.30-23.42.19:191][236]LogWorld: Bringing World /Game/levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.12.31-02.42.19
+[2022.12.30-23.42.19:192][236]LogWorld: Bringing up level for play took: 0.000814
+[2022.12.30-23.42.19:194][236]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2022.12.30-23.42.19:195][236]PIE: Server logged in
+[2022.12.30-23.42.19:196][236]PIE: Play in editor total start time 0,088 seconds.
+[2022.12.30-23.43.53:447][513]LogTemp: Warning: Object Created
+[2022.12.30-23.43.55:440][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.30-23.43.55:440][746]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_MainLevel
+[2022.12.30-23.43.55:440][746]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.30-23.43.55:440][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.43.55:444][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.30-23.43.55:448][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.30-23.43.55:471][746]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.30-23.43.55:471][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.12.30-23.43.55:472][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.12.30-23.43.55:477][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.30-23.43.55:479][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.12.30-23.43.55:492][746]LogActorComponent: ReregisterComponent: (/Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_3.AudioComponent0) Not currently registered. Aborting.
+[2022.12.30-23.43.55:551][747]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.12.30-23.49.26:763][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.12.30-23.49.26:777][ 58]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/levels/MainLevel_Auto2
+[2022.12.30-23.49.26:777][ 58]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel_Auto2CD6D747C4D3A6430DE33BB8F67628601.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/levels/MainLevel_Auto2.umap'
+[2022.12.30-23.49.26:786][ 58]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/MainLevel' took 0.049
+[2022.12.30-23.49.26:786][ 58]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.049
+[2022.12.30-23.49.26:787][ 58]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/sounds/Runenweltbild-Runenweltbild] ([1] browsable assets)...
+[2022.12.30-23.49.26:816][ 58]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/sounds/Runenweltbild-Runenweltbild.Runenweltbild-Runenweltbild]
+[2022.12.30-23.49.26:816][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/sounds/Runenweltbild-Runenweltbild]
+[2022.12.30-23.49.27:004][ 58]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/sounds/Runenweltbild-Runenweltbild_Auto2
+[2022.12.30-23.49.27:004][ 58]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Runenweltbild-Runenweltbild_Auto2B9173104311075C1AC5E6AF64037910.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/sounds/Runenweltbild-Runenweltbild_Auto2.uasset'
+[2022.12.30-23.49.27:004][ 58]LogFileHelpers: Auto-saving content packages took 0.218
+[2022.12.30-23.54.36:851][422]LogAssetTools: Warning: Two factories registered with same priority : WmfFileMediaSourceFactory_2 and AvfFileMediaSourceFactory_1
+[2022.12.30-23.54.36:852][422]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:/Users/cx9ps3/Downloads/explosion-6055.mp3)
+[2022.12.30-23.54.36:853][422]LogAssetTools: Warning: Two factories registered with same priority : WmfFileMediaSourceFactory_2 and AvfFileMediaSourceFactory_1
+[2022.12.30-23.54.36:853][422]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:/Users/cx9ps3/Downloads/beam-8-43831.mp3)
+[2022.12.30-23.55.29:936][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.12.30-23.55.30:926][909]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.30-23.55.30:961][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.12.30-23.55.30:986][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.12.30-23.55.31:010][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.12.30-23.57.16:664][529]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.12.30-23.57.16:677][529]LogContentBrowser: Creating deferred item: NewFolder
+[2022.12.30-23.57.16:688][530]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.12.30-23.57.18:492][747]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2022.12.30-23.57.18:492][747]LogContentBrowser: End creating deferred item NewFolder
+[2022.12.30-23.57.32:492][283]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:/Users/cx9ps3/Downloads/explosion-6055.wav)
+[2022.12.30-23.57.32:499][283]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave explosion-6055...
+[2022.12.30-23.57.32:509][283]LogAudio: Display: Chunk size for SoundWave /Game/sounds/explosion-6055.explosion-6055: 262144
+[2022.12.30-23.57.32:510][283]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave explosion-6055...
+[2022.12.30-23.57.32:517][283]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:/Users/cx9ps3/Downloads/beam-8-43831.wav)
+[2022.12.30-23.57.32:518][283]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave beam-8-43831...
+[2022.12.30-23.57.32:522][283]LogAudio: Display: Chunk size for SoundWave /Game/sounds/explosion-6055.explosion-6055: 262144
+[2022.12.30-23.57.32:523][283]LogAudio: Display: Chunk size for SoundWave /Game/sounds/beam-8-43831.beam-8-43831: 262144
+[2022.12.30-23.57.32:524][283]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave beam-8-43831...
+[2022.12.30-23.57.32:530][283]LogAudio: Display: Chunk size for SoundWave /Game/sounds/beam-8-43831.beam-8-43831: 262144
+[2022.12.30-23.57.56:149][ 73]LogDerivedDataCache: C:/Users/cx9ps3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.333 and deleted 0 files with total size 0 MiB. Scanned 10471 files in 10292 folders with total size 382 MiB.
+[2022.12.30-23.59.27:374][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.12.30-23.59.27:375][143]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/MainLevel' took 0.029
+[2022.12.30-23.59.27:376][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/sounds/explosion-6055] ([1] browsable assets)...
+[2022.12.30-23.59.27:378][143]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/sounds/explosion-6055.explosion-6055]
+[2022.12.30-23.59.27:378][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/sounds/explosion-6055]
+[2022.12.30-23.59.27:378][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sounds/explosion-6055" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/sounds/explosion-6055_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2022.12.30-23.59.27:383][143]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/sounds/explosion-6055_Auto3
+[2022.12.30-23.59.27:383][143]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/explosion-6055_Auto3B4798CEC4AD17C5D0540368B09F7FCA1.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/sounds/explosion-6055_Auto3.uasset'
+[2022.12.30-23.59.27:384][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/sounds/beam-8-43831] ([1] browsable assets)...
+[2022.12.30-23.59.27:387][143]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/sounds/beam-8-43831.beam-8-43831]
+[2022.12.30-23.59.27:387][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/sounds/beam-8-43831]
+[2022.12.30-23.59.27:387][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sounds/beam-8-43831" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/sounds/beam-8-43831_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2022.12.30-23.59.27:389][143]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/sounds/beam-8-43831_Auto3
+[2022.12.30-23.59.27:389][143]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/beam-8-43831_Auto39DBD056E44A5EBBD78F5EB8033849D3F.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/Autosaves/Game/sounds/beam-8-43831_Auto3.uasset'
+[2022.12.30-23.59.27:390][143]LogFileHelpers: Auto-saving content packages took 0.015
+[2022.12.31-00.05.35:640][398]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.12.31-00.07.53:557][761]LogLiveCoding: Display:    Creating library C:\Users\cx9ps3\Documents\Unreal Projects\Shaperunner\Binaries\Win64\UnrealEditor-Shaperunner.patch_0.lib and object C:\Users\cx9ps3\Documents\Unreal Projects\Shaperunner\Binaries\Win64\UnrealEditor-Shaperunner.patch_0.exp
+[2022.12.31-00.07.55:875][762]LogClass: UPackage /Script/Shaperunner Reload.
+[2022.12.31-00.07.55:875][762]LogClass: UClass Meteor Reload.
+[2022.12.31-00.07.55:877][762]LogClass: UClass Obstacle Reload.
+[2022.12.31-00.07.55:877][762]LogClass: UClass PlayerSpaceship Reload.
+[2022.12.31-00.07.55:877][762]LogClass: UClass Spaceship Reload.
+[2022.12.31-00.07.55:877][762]LogClass: UClass WeaponComponent Reload.
+[2022.12.31-00.07.55:882][762]LogClass: Could not find existing class Meteor in package /Script/Shaperunner for reload, assuming new or modified class
+[2022.12.31-00.07.55:882][762]LogClass: Could not find existing class Obstacle in package /Script/Shaperunner for reload, assuming new or modified class
+[2022.12.31-00.07.55:882][762]LogClass: Function OnHit is new or belongs to a modified class.
+[2022.12.31-00.07.55:882][762]LogClass: Could not find existing class PlayerSpaceship in package /Script/Shaperunner for reload, assuming new or modified class
+[2022.12.31-00.07.55:882][762]LogClass: Function GetLives is new or belongs to a modified class.
+[2022.12.31-00.07.55:882][762]LogClass: Could not find existing class Spaceship in package /Script/Shaperunner for reload, assuming new or modified class
+[2022.12.31-00.07.55:882][762]LogClass: Could not find existing class WeaponComponent in package /Script/Shaperunner for reload, assuming new or modified class
+[2022.12.31-00.07.55:888][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.55:889][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.55:889][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.55:948][762]Re-instancing Obstacle after reload.
+[2022.12.31-00.07.55:961][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.55:994][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:010][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:011][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:078][762]Re-instancing Meteor after reload.
+[2022.12.31-00.07.56:079][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:079][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:082][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:084][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:096][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:096][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:098][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:099][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:111][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:112][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:114][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:115][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:126][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:127][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:129][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:130][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:165][762]Re-instancing WeaponComponent after reload.
+[2022.12.31-00.07.56:193][762]Re-instancing PlayerSpaceship after reload.
+[2022.12.31-00.07.56:257][762]Re-instancing Spaceship after reload.
+[2022.12.31-00.07.56:257][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:258][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:260][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:261][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:274][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:275][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:278][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:279][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:295][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:296][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:298][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:299][762]LogTemp: Warning: Object Created
+[2022.12.31-00.07.56:628][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.12.31-00.07.57:869][763]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes changed
+[2022.12.31-00.07.57:876][763]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.12.31-00.08.19:653][916]LogTemp: Warning: Object Created
+[2022.12.31-00.08.19:654][916]LogTemp: Warning: Object Created
+[2022.12.31-00.08.19:654][916]LogTemp: Warning: Object Created
+[2022.12.31-00.08.19:997][917]LogTemp: Warning: Object Created
+[2022.12.31-00.08.19:997][917]LogTemp: Warning: Object Created
+[2022.12.31-00.08.19:997][917]LogTemp: Warning: Object Created
+[2022.12.31-00.08.19:998][917]LogTemp: Warning: Object Created
+[2022.12.31-00.08.19:998][917]LogTemp: Warning: Object Created
+[2022.12.31-00.08.22:327][108]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_PlayerSpaceship.BP_PlayerSpaceship
+[2022.12.31-00.08.22:327][108]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.08.29:023][628]LogSlate: Window 'BP_PlayerSpaceship' being destroyed
+[2022.12.31-00.08.29:044][628]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.08.29:045][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.08.29:088][628]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_PlayerSpaceship.BP_PlayerSpaceship
+[2022.12.31-00.08.29:088][628]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.08.41:478][562]BlueprintLog: New page: Compile BP_PlayerSpaceship
+[2022.12.31-00.08.41:785][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.12.31-00.08.42:653][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.08.42:722][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_PlayerSpaceship" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlayerSpaceship.uasset" SILENT=true
+[2022.12.31-00.08.42:727][634]LogSavePackage: Moving output files for package: /Game/blueprints/BP_PlayerSpaceship
+[2022.12.31-00.08.42:728][634]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_PlayerSpaceship90AABB6F40B7946927053CAED2BD00D1.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlayerSpaceship.uasset'
+[2022.12.31-00.08.42:735][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 1.64 sec)
+[2022.12.31-00.08.42:745][634]AssetCheck: New page: Asset Save: BP_PlayerSpaceship
+[2022.12.31-00.08.42:745][634]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_PlayerSpaceship.BP_PlayerSpaceship
+[2022.12.31-00.08.44:210][765]LogSlate: Window 'BP_PlayerSpaceship' being destroyed
+[2022.12.31-00.08.44:217][765]LogSlate: Window 'BP_PlayerSpaceship' being destroyed
+[2022.12.31-00.08.44:260][765]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.08.44:260][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.08.49:102][210]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_PlayerSpaceship.BP_PlayerSpaceship
+[2022.12.31-00.08.49:103][210]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.09.00:784][115]BlueprintLog: New page: Compile BP_PlayerSpaceship
+[2022.12.31-00.09.01:050][115]LogUObjectHash: Compacting FUObjectHashTables data took   6.54ms
+[2022.12.31-00.09.01:899][189]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.09.01:949][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_PlayerSpaceship" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlayerSpaceship.uasset" SILENT=true
+[2022.12.31-00.09.01:954][189]LogSavePackage: Moving output files for package: /Game/blueprints/BP_PlayerSpaceship
+[2022.12.31-00.09.01:954][189]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_PlayerSpaceshipBFFD17394F14E5C976CC8DB6DB43D405.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_PlayerSpaceship.uasset'
+[2022.12.31-00.09.01:962][189]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.70 sec)
+[2022.12.31-00.09.01:967][189]AssetCheck: New page: Asset Save: BP_PlayerSpaceship
+[2022.12.31-00.09.01:967][189]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_PlayerSpaceship.BP_PlayerSpaceship
+[2022.12.31-00.09.03:359][314]LogSlate: Window 'BP_PlayerSpaceship' being destroyed
+[2022.12.31-00.09.03:365][314]LogSlate: Window 'BP_PlayerSpaceship' being destroyed
+[2022.12.31-00.09.03:370][314]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.09.03:370][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.09.07:395][753]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Obstacle.BP_Obstacle
+[2022.12.31-00.09.07:396][753]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.09.07:897][753]LogTemp: Warning: Object Created
+[2022.12.31-00.09.13:970][266]BlueprintLog: New page: Compile BP_Obstacle
+[2022.12.31-00.09.13:971][266]LogTemp: Warning: Object Created
+[2022.12.31-00.09.13:971][266]LogTemp: Warning: Object Created
+[2022.12.31-00.09.13:991][266]LogTemp: Warning: Object Created
+[2022.12.31-00.09.13:992][266]LogTemp: Warning: Object Created
+[2022.12.31-00.09.13:992][266]LogTemp: Warning: Object Created
+[2022.12.31-00.09.14:054][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.12.31-00.09.14:061][266]LogTemp: Warning: Object Created
+[2022.12.31-00.09.14:858][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.09.14:911][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Obstacle" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Obstacle.uasset" SILENT=true
+[2022.12.31-00.09.14:916][331]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Obstacle
+[2022.12.31-00.09.14:916][331]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Obstacle6A4B628942DC93E6D5E3A3805127E610.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Obstacle.uasset'
+[2022.12.31-00.09.14:924][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 1.77 sec)
+[2022.12.31-00.09.14:930][331]AssetCheck: New page: Asset Save: BP_Obstacle
+[2022.12.31-00.09.14:930][331]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Obstacle.BP_Obstacle
+[2022.12.31-00.09.16:452][470]LogSlate: Window 'BP_Obstacle' being destroyed
+[2022.12.31-00.09.16:458][470]LogSlate: Window 'BP_Obstacle' being destroyed
+[2022.12.31-00.09.16:490][470]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.09.16:490][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.09.24:447][265]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Spaceship.BP_Spaceship
+[2022.12.31-00.09.24:447][265]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.09.24:944][265]LogTemp: Warning: Object Created
+[2022.12.31-00.09.28:141][553]LogSlate: Window 'BP_Spaceship' being destroyed
+[2022.12.31-00.09.28:152][553]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.09.28:152][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.09.28:187][553]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Spaceship.BP_Spaceship
+[2022.12.31-00.09.28:188][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.09.28:692][553]LogTemp: Warning: Object Created
+[2022.12.31-00.09.44:313][843]BlueprintLog: New page: Compile BP_Spaceship
+[2022.12.31-00.09.44:314][843]LogTemp: Warning: Object Created
+[2022.12.31-00.09.44:315][843]LogTemp: Warning: Object Created
+[2022.12.31-00.09.44:323][843]LogTemp: Warning: Object Created
+[2022.12.31-00.09.44:324][843]LogTemp: Warning: Object Created
+[2022.12.31-00.09.44:325][843]LogTemp: Warning: Object Created
+[2022.12.31-00.09.44:378][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.12.31-00.09.44:384][843]LogTemp: Warning: Object Created
+[2022.12.31-00.09.45:146][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.09.45:197][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Spaceship" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship.uasset" SILENT=true
+[2022.12.31-00.09.45:202][907]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Spaceship
+[2022.12.31-00.09.45:203][907]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_SpaceshipA8C861C5450148E1C4882D9B6E8B502F.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship.uasset'
+[2022.12.31-00.09.45:210][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.83 sec)
+[2022.12.31-00.09.45:220][907]AssetCheck: New page: Asset Save: BP_Spaceship
+[2022.12.31-00.09.45:220][907]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Spaceship.BP_Spaceship
+[2022.12.31-00.09.46:294][  4]LogSlate: Window 'BP_Spaceship' being destroyed
+[2022.12.31-00.09.46:301][  4]LogSlate: Window 'BP_Spaceship' being destroyed
+[2022.12.31-00.09.46:340][  4]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.09.46:340][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.09.48:969][263]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Spaceship1.BP_Spaceship1
+[2022.12.31-00.09.48:969][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.09.49:470][263]LogTemp: Warning: Object Created
+[2022.12.31-00.09.52:696][549]LogSlate: Window 'BP_Spaceship1' being destroyed
+[2022.12.31-00.09.52:740][549]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.09.52:740][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.09.52:774][549]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Spaceship1.BP_Spaceship1
+[2022.12.31-00.09.52:775][549]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.09.53:279][549]LogTemp: Warning: Object Created
+[2022.12.31-00.10.08:576][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.10.08:627][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Spaceship1" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship1.uasset" SILENT=true
+[2022.12.31-00.10.08:632][818]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Spaceship1
+[2022.12.31-00.10.08:633][818]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Spaceship1449692514F20F5B6ADDCBE98930D06F6.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship1.uasset'
+[2022.12.31-00.10.08:641][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 1.90 sec)
+[2022.12.31-00.10.08:647][818]AssetCheck: New page: Asset Save: BP_Spaceship1
+[2022.12.31-00.10.08:647][818]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Spaceship1.BP_Spaceship1
+[2022.12.31-00.10.09:325][874]BlueprintLog: New page: Compile BP_Spaceship1
+[2022.12.31-00.10.09:326][874]LogTemp: Warning: Object Created
+[2022.12.31-00.10.09:327][874]LogTemp: Warning: Object Created
+[2022.12.31-00.10.09:335][874]LogTemp: Warning: Object Created
+[2022.12.31-00.10.09:336][874]LogTemp: Warning: Object Created
+[2022.12.31-00.10.09:337][874]LogTemp: Warning: Object Created
+[2022.12.31-00.10.09:395][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.12.31-00.10.09:401][874]LogTemp: Warning: Object Created
+[2022.12.31-00.10.11:103][ 28]LogSlate: Window 'BP_Spaceship1' being destroyed
+[2022.12.31-00.10.11:110][ 28]LogSlate: Window 'BP_Spaceship1' being destroyed
+[2022.12.31-00.10.11:150][ 28]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.10.11:150][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.10.14:154][345]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Spaceship2.BP_Spaceship2
+[2022.12.31-00.10.14:155][345]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.10.14:658][345]LogTemp: Warning: Object Created
+[2022.12.31-00.10.22:499][ 69]LogSlate: Window 'BP_Spaceship2' being destroyed
+[2022.12.31-00.10.22:511][ 69]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.10.22:511][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.10.22:546][ 69]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Spaceship2.BP_Spaceship2
+[2022.12.31-00.10.22:546][ 69]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.10.23:045][ 69]LogTemp: Warning: Object Created
+[2022.12.31-00.10.44:776][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.10.44:824][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Spaceship2" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship2.uasset" SILENT=true
+[2022.12.31-00.10.44:828][876]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Spaceship2
+[2022.12.31-00.10.44:829][876]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Spaceship211E9A6D84ED2FBD65363D08B42D29D61.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship2.uasset'
+[2022.12.31-00.10.44:837][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 1.96 sec)
+[2022.12.31-00.10.44:843][876]AssetCheck: New page: Asset Save: BP_Spaceship2
+[2022.12.31-00.10.44:843][876]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Spaceship2.BP_Spaceship2
+[2022.12.31-00.10.45:544][933]BlueprintLog: New page: Compile BP_Spaceship2
+[2022.12.31-00.10.45:545][933]LogTemp: Warning: Object Created
+[2022.12.31-00.10.45:546][933]LogTemp: Warning: Object Created
+[2022.12.31-00.10.45:554][933]LogTemp: Warning: Object Created
+[2022.12.31-00.10.45:555][933]LogTemp: Warning: Object Created
+[2022.12.31-00.10.45:555][933]LogTemp: Warning: Object Created
+[2022.12.31-00.10.45:604][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.12.31-00.10.45:609][933]LogTemp: Warning: Object Created
+[2022.12.31-00.10.46:773][ 37]LogSlate: Window 'BP_Spaceship2' being destroyed
+[2022.12.31-00.10.46:779][ 37]LogSlate: Window 'BP_Spaceship2' being destroyed
+[2022.12.31-00.10.46:820][ 37]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.10.46:820][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.10.52:905][746]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.31-00.10.52:950][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.31-00.10.52:950][746]PIE: New page: PIE session: MainLevel (31 груд. 2022 р., 06:10:52)
+[2022.12.31-00.10.52:980][746]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_MainLevel
+[2022.12.31-00.10.52:984][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003741s)
+[2022.12.31-00.10.52:984][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/MainLevel.MainLevel to /Game/levels/UEDPIE_0_MainLevel.MainLevel (0.003778s)
+[2022.12.31-00.10.52:984][746]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.10.52:984][746]LogAIModule: Creating AISystem for world MainLevel
+[2022.12.31-00.10.52:984][746]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2022.12.31-00.10.53:011][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.12.31-00.10.53:024][746]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.12.31-00.10.53:024][746]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.31-00.10.53:024][746]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.31-00.10.53:024][746]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.31-00.10.53:024][746]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.31-00.10.53:024][746]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.31-00.10.53:024][746]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.31-00.10.53:024][746]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.31-00.10.53:024][746]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.31-00.10.53:024][746]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.31-00.10.53:025][746]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.31-00.10.53:025][746]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.31-00.10.53:038][746]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.31-00.10.53:057][746]LogAudioMixer: Display: Using Audio Hardware Device Наушники (2- Rift S)
+[2022.12.31-00.10.53:057][746]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.31-00.10.53:057][746]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.31-00.10.53:057][746]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.31-00.10.53:058][746]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.12.31-00.10.53:058][746]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.12.31-00.10.53:060][746]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.12.31-00.10.53:060][746]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.12.31-00.10.53:060][746]LogInit: FAudioDevice initialized.
+[2022.12.31-00.10.53:060][746]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainLevel'.
+[2022.12.31-00.10.53:063][746]LogLoad: Game class is 'BP_ShaperunnerGameModeBase_C'
+[2022.12.31-00.10.53:063][746]LogWorld: Bringing World /Game/levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.12.31-03.10.53
+[2022.12.31-00.10.53:064][746]LogWorld: Bringing up level for play took: 0.000806
+[2022.12.31-00.10.53:066][746]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2022.12.31-00.10.53:079][746]PIE: Server logged in
+[2022.12.31-00.10.53:080][746]PIE: Play in editor total start time 0,167 seconds.
+[2022.12.31-00.10.56:946][194]LogTemp: Warning: Object Created
+[2022.12.31-00.10.59:947][552]LogTemp: Warning: Object Created
+[2022.12.31-00.11.02:951][900]LogTemp: Warning: Object Created
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: ================================================
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Total job queries 275, among them cache hits 50 (18.18%)
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Tracking 225 distinct input hashes that result in 151 distinct outputs (67.11%)
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: RAM used: 1.63 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.20%
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Shaders Compiled: 22
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Jobs assigned 22, completed 22 (100.00%)
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Average time worker was idle: 406.39 s
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Time job spent in pending queue: average 0.92 s, longest 3.15 s
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Job execution time: average 1.55 s, max 3.13 s
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Job life time (pending + execution): average 2.48 s, max 4.27
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.09 s
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Jobs were issued in 22 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Average processing rate: 3.61 jobs/sec
+[2022.12.31-00.11.04:194][ 28]LogShaderCompilers: Display: Total thread time: 15.14 s
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display: Total thread preprocess time: 0.92 s
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display: Percentage time preprocessing: 6.06%
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display: Effective parallelization: 2.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 1.22 sec, max 1.22 sec, min 1.21 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 1.18 sec, max 1.45 sec, min 0.75 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.99 sec, max 1.16 sec, min 0.75 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.95 sec, max 1.04 sec, min 0.86 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    2 times, average 0.68 sec, max 0.72 sec, min 0.64 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.42% of total time (compiled    3 times, average 1.18 sec, max 1.45 sec, min 0.75 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.65% of total time (compiled    3 times, average 0.99 sec, max 1.16 sec, min 0.75 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 16.06% of total time (compiled    2 times, average 1.22 sec, max 1.22 sec, min 1.21 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.52% of total time (compiled    2 times, average 0.95 sec, max 1.04 sec, min 0.86 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 8.98% of total time (compiled    2 times, average 0.68 sec, max 0.72 sec, min 0.64 sec)
+[2022.12.31-00.11.04:195][ 28]LogShaderCompilers: Display: ================================================
+[2022.12.31-00.11.05:946][227]LogTemp: Warning: Object Created
+[2022.12.31-00.11.08:945][586]LogTemp: Warning: Object Created
+[2022.12.31-00.11.11:952][946]LogTemp: Warning: Object Created
+[2022.12.31-00.11.14:951][305]LogTemp: Warning: Object Created
+[2022.12.31-00.11.17:951][664]LogTemp: Warning: Object Created
+[2022.12.31-00.11.20:951][ 23]LogTemp: Warning: Object Created
+[2022.12.31-00.11.23:950][382]LogTemp: Warning: Object Created
+[2022.12.31-00.11.26:949][741]LogTemp: Warning: Object Created
+[2022.12.31-00.11.32:340][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.31-00.11.32:340][383]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_MainLevel
+[2022.12.31-00.11.32:340][383]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.11.32:340][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.11.32:344][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.31-00.11.32:348][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.11.32:374][383]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.31-00.11.32:376][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.12.31-00.11.32:376][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.12.31-00.11.32:380][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.31-00.11.32:390][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.12.31-00.11.32:397][383]LogActorComponent: ReregisterComponent: (/Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_3.AudioComponent0) Not currently registered. Aborting.
+[2022.12.31-00.11.32:464][384]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2022.12.31-00.11.33:766][529]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.31-00.11.33:773][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.31-00.11.33:773][529]PIE: New page: PIE session: MainLevel (31 груд. 2022 р., 06:11:33)
+[2022.12.31-00.11.33:773][529]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_MainLevel
+[2022.12.31-00.11.33:777][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003686s)
+[2022.12.31-00.11.33:777][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/MainLevel.MainLevel to /Game/levels/UEDPIE_0_MainLevel.MainLevel (0.003723s)
+[2022.12.31-00.11.33:777][529]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.11.33:777][529]LogAIModule: Creating AISystem for world MainLevel
+[2022.12.31-00.11.33:778][529]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2022.12.31-00.11.33:805][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.12.31-00.11.33:807][529]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.12.31-00.11.33:807][529]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.31-00.11.33:807][529]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.31-00.11.33:807][529]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.31-00.11.33:807][529]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.31-00.11.33:807][529]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.31-00.11.33:807][529]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.31-00.11.33:807][529]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.31-00.11.33:807][529]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.31-00.11.33:807][529]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.31-00.11.33:807][529]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.31-00.11.33:807][529]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.31-00.11.33:809][529]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.31-00.11.33:826][529]LogAudioMixer: Display: Using Audio Hardware Device Наушники (2- Rift S)
+[2022.12.31-00.11.33:826][529]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.31-00.11.33:826][529]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.31-00.11.33:827][529]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.31-00.11.33:827][529]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2022.12.31-00.11.33:827][529]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2022.12.31-00.11.33:829][529]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2022.12.31-00.11.33:829][529]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2022.12.31-00.11.33:829][529]LogInit: FAudioDevice initialized.
+[2022.12.31-00.11.33:829][529]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainLevel'.
+[2022.12.31-00.11.33:832][529]LogLoad: Game class is 'BP_ShaperunnerGameModeBase_C'
+[2022.12.31-00.11.33:832][529]LogWorld: Bringing World /Game/levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.12.31-03.11.33
+[2022.12.31-00.11.33:833][529]LogWorld: Bringing up level for play took: 0.000715
+[2022.12.31-00.11.33:835][529]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2022.12.31-00.11.33:837][529]PIE: Server logged in
+[2022.12.31-00.11.33:837][529]PIE: Play in editor total start time 0,065 seconds.
+[2022.12.31-00.11.37:187][920]LogTemp: Warning: Object Created
+[2022.12.31-00.11.40:187][280]LogTemp: Warning: Object Created
+[2022.12.31-00.11.43:187][639]LogTemp: Warning: Object Created
+[2022.12.31-00.11.46:188][998]LogTemp: Warning: Object Created
+[2022.12.31-00.11.49:187][357]LogTemp: Warning: Object Created
+[2022.12.31-00.11.52:192][714]LogTemp: Warning: Object Created
+[2022.12.31-00.11.55:192][ 73]LogTemp: Warning: Object Created
+[2022.12.31-00.11.58:191][432]LogTemp: Warning: Object Created
+[2022.12.31-00.12.01:193][791]LogTemp: Warning: Object Created
+[2022.12.31-00.12.04:192][149]LogTemp: Warning: Object Created
+[2022.12.31-00.12.07:191][508]LogTemp: Warning: Object Created
+[2022.12.31-00.12.10:191][867]LogTemp: Warning: Object Created
+[2022.12.31-00.12.13:190][226]LogTemp: Warning: Object Created
+[2022.12.31-00.12.16:192][585]LogTemp: Warning: Object Created
+[2022.12.31-00.12.19:186][943]LogTemp: Warning: Object Created
+[2022.12.31-00.12.22:186][302]LogTemp: Warning: Object Created
+[2022.12.31-00.12.24:170][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.31-00.12.24:170][533]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_MainLevel
+[2022.12.31-00.12.24:170][533]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.12.24:171][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.12.24:175][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.31-00.12.24:180][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.12.24:207][533]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.31-00.12.24:208][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.12.31-00.12.24:210][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.12.31-00.12.24:214][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.31-00.12.24:217][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.12.31-00.12.24:223][533]LogActorComponent: ReregisterComponent: (/Game/levels/MainLevel.MainLevel:PersistentLevel.AmbientSound_3.AudioComponent0) Not currently registered. Aborting.
+[2022.12.31-00.12.24:269][534]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2022.12.31-00.12.27:323][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.12.27:354][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.31-00.12.27:388][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.12.31-00.12.27:401][870]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.31-00.12.27:401][870]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel3EFC57EA4DD8EADA5B8338B7994D25F7.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.31-00.12.27:422][870]LogFileHelpers: Saving map 'MainLevel' took 0.068
+[2022.12.31-00.12.27:430][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 2.07 sec)
+[2022.12.31-00.12.27:435][870]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.31-00.12.27:435][870]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.31-00.12.30:108][ 89]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Meteor.BP_Meteor
+[2022.12.31-00.12.30:108][ 89]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.12.30:624][ 89]LogTemp: Warning: Object Created
+[2022.12.31-00.12.43:411][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.12.43:462][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Meteor" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Meteor.uasset" SILENT=true
+[2022.12.31-00.12.43:466][175]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Meteor
+[2022.12.31-00.12.43:467][175]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Meteor8CA3E4E449648CB708CB669DC9CF91CA.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Meteor.uasset'
+[2022.12.31-00.12.43:475][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 2.13 sec)
+[2022.12.31-00.12.43:481][175]AssetCheck: New page: Asset Save: BP_Meteor
+[2022.12.31-00.12.43:481][175]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Meteor.BP_Meteor
+[2022.12.31-00.12.44:880][300]LogSlate: Window 'BP_Meteor' being destroyed
+[2022.12.31-00.12.44:886][300]LogSlate: Window 'BP_Meteor' being destroyed
+[2022.12.31-00.12.44:920][300]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.12.44:920][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.12.47:291][547]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Meteor1.BP_Meteor1
+[2022.12.31-00.12.47:291][547]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.12.47:789][547]LogTemp: Warning: Object Created
+[2022.12.31-00.12.49:772][720]LogSlate: Window 'BP_Meteor1' being destroyed
+[2022.12.31-00.12.49:829][720]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.12.49:829][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.12.49:864][720]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Meteor1.BP_Meteor1
+[2022.12.31-00.12.49:864][720]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.12.50:362][720]LogTemp: Warning: Object Created
+[2022.12.31-00.13.00:290][543]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.13.00:336][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Meteor1" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Meteor1.uasset" SILENT=true
+[2022.12.31-00.13.00:341][543]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Meteor1
+[2022.12.31-00.13.00:341][543]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Meteor1BF95D5FC4197AE5D3ADC919F37BC7418.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Meteor1.uasset'
+[2022.12.31-00.13.00:349][543]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 2.19 sec)
+[2022.12.31-00.13.00:354][543]AssetCheck: New page: Asset Save: BP_Meteor1
+[2022.12.31-00.13.00:354][543]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Meteor1.BP_Meteor1
+[2022.12.31-00.13.02:646][746]LogSlate: Window 'BP_Meteor1' being destroyed
+[2022.12.31-00.13.02:652][746]LogSlate: Window 'BP_Meteor1' being destroyed
+[2022.12.31-00.13.02:690][746]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.13.02:690][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.13.05:663][ 47]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Meteor2.BP_Meteor2
+[2022.12.31-00.13.05:663][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.13.06:170][ 47]LogTemp: Warning: Object Created
+[2022.12.31-00.13.12:642][600]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.13.12:692][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Meteor2" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Meteor2.uasset" SILENT=true
+[2022.12.31-00.13.12:697][600]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Meteor2
+[2022.12.31-00.13.12:697][600]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Meteor29EE2C153424BEE8300402BB363FA6905.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Meteor2.uasset'
+[2022.12.31-00.13.12:705][600]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 2.25 sec)
+[2022.12.31-00.13.12:711][600]AssetCheck: New page: Asset Save: BP_Meteor2
+[2022.12.31-00.13.12:711][600]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Meteor2.BP_Meteor2
+[2022.12.31-00.13.14:026][718]LogSlate: Window 'BP_Meteor2' being destroyed
+[2022.12.31-00.13.14:032][718]LogSlate: Window 'BP_Meteor2' being destroyed
+[2022.12.31-00.13.14:037][718]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.13.14:037][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.13.15:275][851]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.13.15:308][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/MainLevel" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.31-00.13.15:357][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.12.31-00.13.15:371][851]LogSavePackage: Moving output files for package: /Game/levels/MainLevel
+[2022.12.31-00.13.15:372][851]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/MainLevel0DB104034311E1F5ECE1E0BA42C73481.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/levels/MainLevel.umap'
+[2022.12.31-00.13.15:383][851]LogFileHelpers: Saving map 'MainLevel' took 0.075
+[2022.12.31-00.13.15:389][851]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 2.37 sec)
+[2022.12.31-00.13.15:395][851]AssetCheck: New page: Asset Save: MainLevel
+[2022.12.31-00.13.15:395][851]LogContentValidation: Display: Validating /Script/Engine.World /Game/levels/MainLevel.MainLevel
+[2022.12.31-00.13.17:595][ 79]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Meteor3.BP_Meteor3
+[2022.12.31-00.13.17:596][ 79]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.13.18:091][ 79]LogTemp: Warning: Object Created
+[2022.12.31-00.13.23:173][505]BlueprintLog: New page: Compile BP_Meteor3
+[2022.12.31-00.13.23:174][505]LogTemp: Warning: Object Created
+[2022.12.31-00.13.23:174][505]LogTemp: Warning: Object Created
+[2022.12.31-00.13.23:195][505]LogTemp: Warning: Object Created
+[2022.12.31-00.13.23:195][505]LogTemp: Warning: Object Created
+[2022.12.31-00.13.23:196][505]LogTemp: Warning: Object Created
+[2022.12.31-00.13.23:246][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.12.31-00.13.23:249][505]LogTemp: Warning: Object Created
+[2022.12.31-00.13.24:185][583]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.13.24:238][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Meteor3" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Meteor3.uasset" SILENT=true
+[2022.12.31-00.13.24:242][583]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Meteor3
+[2022.12.31-00.13.24:243][583]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Meteor3EA8CB5CF4D84F9E67A0D3DBC0F9931D0.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Meteor3.uasset'
+[2022.12.31-00.13.24:251][583]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 2.43 sec)
+[2022.12.31-00.13.24:257][583]AssetCheck: New page: Asset Save: BP_Meteor3
+[2022.12.31-00.13.24:257][583]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Meteor3.BP_Meteor3
+[2022.12.31-00.13.25:863][727]LogSlate: Window 'BP_Meteor3' being destroyed
+[2022.12.31-00.13.25:869][727]LogSlate: Window 'BP_Meteor3' being destroyed
+[2022.12.31-00.13.25:900][727]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.13.25:900][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.13.29:729][138]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Spaceship.BP_Spaceship
+[2022.12.31-00.13.29:730][138]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.13.30:246][138]LogTemp: Warning: Object Created
+[2022.12.31-00.13.45:004][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.13.45:057][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Spaceship" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship.uasset" SILENT=true
+[2022.12.31-00.13.45:061][368]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Spaceship
+[2022.12.31-00.13.45:062][368]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Spaceship099AE0E54C13C7E85FD1DDBB535E352A.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship.uasset'
+[2022.12.31-00.13.45:070][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 2.50 sec)
+[2022.12.31-00.13.45:075][368]AssetCheck: New page: Asset Save: BP_Spaceship
+[2022.12.31-00.13.45:075][368]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Spaceship.BP_Spaceship
+[2022.12.31-00.13.46:373][484]LogSlate: Window 'BP_Spaceship' being destroyed
+[2022.12.31-00.13.46:379][484]LogSlate: Window 'BP_Spaceship' being destroyed
+[2022.12.31-00.13.46:384][484]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.13.46:384][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.13.49:240][760]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Spaceship1.BP_Spaceship1
+[2022.12.31-00.13.49:240][760]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.13.49:775][760]LogTemp: Warning: Object Created
+[2022.12.31-00.14.00:232][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.14.00:286][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Spaceship1" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship1.uasset" SILENT=true
+[2022.12.31-00.14.00:291][630]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Spaceship1
+[2022.12.31-00.14.00:291][630]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Spaceship1F010F91B494C9A60DEB6BEAE3A747178.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship1.uasset'
+[2022.12.31-00.14.00:299][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 2.56 sec)
+[2022.12.31-00.14.00:305][630]AssetCheck: New page: Asset Save: BP_Spaceship1
+[2022.12.31-00.14.00:305][630]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Spaceship1.BP_Spaceship1
+[2022.12.31-00.14.01:732][756]LogSlate: Window 'BP_Spaceship1' being destroyed
+[2022.12.31-00.14.01:738][756]LogSlate: Window 'BP_Spaceship1' being destroyed
+[2022.12.31-00.14.01:743][756]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.14.01:743][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-00.14.04:329][ 10]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/blueprints/BP_Spaceship2.BP_Spaceship2
+[2022.12.31-00.14.04:330][ 10]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-00.14.04:835][ 10]LogTemp: Warning: Object Created
+[2022.12.31-00.14.13:304][688]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.31-00.14.13:348][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/BP_Spaceship2" FILE="C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship2.uasset" SILENT=true
+[2022.12.31-00.14.13:353][688]LogSavePackage: Moving output files for package: /Game/blueprints/BP_Spaceship2
+[2022.12.31-00.14.13:353][688]LogSavePackage: Moving 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Saved/BP_Spaceship2159696B1424018A31C76BB8CAFD13566.tmp' to 'C:/Users/cx9ps3/Documents/Unreal Projects/Shaperunner/Content/blueprints/BP_Spaceship2.uasset'
+[2022.12.31-00.14.13:362][688]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 2.62 sec)
+[2022.12.31-00.14.13:367][688]AssetCheck: New page: Asset Save: BP_Spaceship2
+[2022.12.31-00.14.13:367][688]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/blueprints/BP_Spaceship2.BP_Spaceship2
+[2022.12.31-00.14.14:092][748]BlueprintLog: New page: Compile BP_Spaceship2
+[2022.12.31-00.14.14:092][748]LogTemp: Warning: Object Created
+[2022.12.31-00.14.14:093][748]LogTemp: Warning: Object Created
+[2022.12.31-00.14.14:119][748]LogTemp: Warning: Object Created
+[2022.12.31-00.14.14:120][748]LogTemp: Warning: Object Created
+[2022.12.31-00.14.14:120][748]LogTemp: Warning: Object Created
+[2022.12.31-00.14.14:168][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.12.31-00.14.14:173][748]LogTemp: Warning: Object Created
+[2022.12.31-00.14.15:639][876]LogSlate: Window 'BP_Spaceship2' being destroyed
+[2022.12.31-00.14.15:645][876]LogSlate: Window 'BP_Spaceship2' being destroyed
+[2022.12.31-00.14.15:650][876]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-00.14.15:650][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated

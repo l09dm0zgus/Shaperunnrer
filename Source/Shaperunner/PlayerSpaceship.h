@@ -58,4 +58,7 @@ private:
 	class USceneComponent *TailLocation;
 
 	
+
+	UPROPERTY(EditAnywhere)
+	class USoundBase* ExplosionSound;
 };

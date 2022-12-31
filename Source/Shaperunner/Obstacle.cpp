@@ -7,6 +7,7 @@
 #include "NiagaraFunctionLibrary.h"
 #include "NiagaraComponent.h"
 #include "PlayerSpaceship.h"
+#include "Kismet/GameplayStatics.h"
 
 AObstacle::AObstacle()
 {
@@ -46,6 +47,10 @@ void AObstacle::Damage()
 	if(ExplosionFX != nullptr)
 	{
 		UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(),ExplosionFX,GetActorLocation(),FRotator(0.0f),FVector(0.05f));
+		if (ExplosionSound != nullptr)
+		{
+			UGameplayStatics::PlaySoundAtLocation(this, ExplosionSound, GetActorLocation());
+		}
 		Destroy();
 	}
 }

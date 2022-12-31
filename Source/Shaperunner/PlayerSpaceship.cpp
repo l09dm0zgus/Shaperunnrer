@@ -82,6 +82,11 @@ void APlayerSpaceship::Damage()
 		{
 			GameMode->GameOver();
 		}
+		
+		if (ExplosionSound != nullptr)
+		{
+			UGameplayStatics::PlaySoundAtLocation(this, ExplosionSound, GetActorLocation());
+		}
 		UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(),ExplosionFX,GetActorLocation(),FRotator(0.0f),FVector(0.05f));
 		Destroy();
 	}
