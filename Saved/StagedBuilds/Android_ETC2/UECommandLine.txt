@@ -1,1 +1,0 @@
-../../../Shaperunner/Shaperunner.uproject MainLevel -Messaging -SessionId=4407653D47DCFFECC4A73B9522E9E640 -SessionOwner="cx9ps3" -SessionName="Shaperunner - Android APK"
